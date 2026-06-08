@@ -35,17 +35,18 @@ const fullStars = Math.floor(rating);
 const hasHalf = rating - fullStars >= 0.3;
 ---
 
-<a
+|<a
   href={`/${slug}/`}
-  class="group flex flex-col rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg dark:border-neutral-800 dark:bg-neutral-900"
+  class="group flex flex-col rounded-2xl border border-neutral-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg dark:border-neutral-800 dark:bg-neutral-900"
 >
+  <div class="flex flex-col gap-2 p-5 pt-5">
   <!-- Header: Icon + Title + Category -->
-  <div class="mb-3 flex items-start gap-3">
-    <div class="flex size-12 shrink-0 items-center justify-center rounded-xl bg-cyan-50 text-2xl dark:bg-cyan-900/30">
+  <div class="flex items-start gap-3">
+    <div class="flex size-10 shrink-0 items-center justify-center rounded-xl bg-cyan-50 text-xl dark:bg-cyan-900/30">
       🦷
     </div>
     <div class="min-w-0 flex-1">
-      <h3 class="truncate text-base font-bold text-neutral-900 dark:text-white">{title}</h3>
+      <h3 class="truncate text-sm font-bold text-neutral-900 dark:text-white">{title}</h3>
       {category && (
         <span class="text-xs font-medium text-cyan-600 dark:text-cyan-400">{category}</span>
       )}
@@ -54,35 +55,35 @@ const hasHalf = rating - fullStars >= 0.3;
 
   <!-- Address -->
   {address && (
-    <p class="mb-3 line-clamp-1 text-sm text-neutral-500 dark:text-neutral-400">{address}</p>
+    <p class="line-clamp-1 text-xs text-neutral-500 dark:text-neutral-400">{address}</p>
   )}
 
   <!-- Rating -->
-  <div class="mb-3 flex items-center gap-2">
+  <div class="flex items-center gap-1.5">
     <div class="flex gap-0.5">
       {[1, 2, 3, 4, 5].map(i => (
-        <span class={`text-sm ${i <= Math.round(rating) ? 'text-amber-400' : 'text-neutral-300 dark:text-neutral-600'}`}>★</span>
+        <span class={`text-xs ${i <= Math.round(rating) ? 'text-amber-400' : 'text-neutral-300 dark:text-neutral-600'}`}>★</span>
       ))}
     </div>
     {rating > 0 && (
       <>
-        <span class="text-sm font-bold text-neutral-900 dark:text-white">{rating}</span>
-        <span class="text-xs text-neutral-400">·</span>
-        <span class="text-xs text-neutral-400">{reviews} {reviews === 1 ? 'reseña' : 'reseñas'}</span>
+        <span class="text-xs font-bold text-neutral-900 dark:text-white">{rating}</span>
+        <span class="text-[10px] text-neutral-400">·</span>
+        <span class="text-[10px] text-neutral-400">{reviews} {reviews === 1 ? 'reseña' : 'reseñas'}</span>
       </>
     )}
   </div>
 
   <!-- Description -->
   {truncatedDesc && (
-    <p class="mb-4 line-clamp-2 text-sm leading-relaxed text-neutral-500 dark:text-neutral-400">{truncatedDesc}</p>
+    <p class="line-clamp-2 text-xs leading-relaxed text-neutral-500 dark:text-neutral-400">{truncatedDesc}</p>
   )}
 
   <!-- Service Tags -->
   {topServices.length > 0 && (
-    <div class="mb-4 flex flex-wrap gap-2">
+    <div class="flex flex-wrap gap-1.5">
       {topServices.map(s => (
-        <span class="rounded-full bg-cyan-50 px-3 py-1 text-xs font-medium text-cyan-700 dark:bg-cyan-900/30 dark:text-cyan-300">
+        <span class="rounded-full bg-cyan-50 px-2.5 py-0.5 text-[11px] font-medium text-cyan-700 dark:bg-cyan-900/30 dark:text-cyan-300">
           🦷 {s}
         </span>
       ))}
@@ -90,22 +91,19 @@ const hasHalf = rating - fullStars >= 0.3;
   )}
 
   <!-- Action Buttons -->
-  <div class="flex gap-2">
-    <a
-      href={`tel:${phoneClean}`}
-      class="flex flex-1 items-center justify-center gap-1.5 rounded-xl bg-cyan-500 px-3 py-2.5 text-sm font-semibold text-white no-underline transition-all duration-200 hover:bg-cyan-600"
-      onclick="event.stopPropagation()"
+  <div class="-mx-5 -mb-5 mt-0 grid grid-cols-2 divide-x divide-white/20">
+    <span
+      onclick={`event.stopPropagation();window.location.href='tel:${phoneClean}'`}
+      class="flex cursor-pointer items-center justify-center gap-1.5 bg-cyan-500 px-3 py-2.5 text-xs font-semibold text-white transition-all hover:bg-cyan-600"
     >
       📞 Llamar
-    </a>
-    <a
-      href={whatsappUrl}
-      target="_blank"
-      rel="noopener"
-      class="flex flex-1 items-center justify-center gap-1.5 rounded-xl bg-emerald-500 px-3 py-2.5 text-sm font-semibold text-white no-underline transition-all duration-200 hover:bg-emerald-600"
-      onclick="event.stopPropagation()"
+    </span>
+    <span
+      onclick={`event.stopPropagation();window.open('${whatsappUrl}','_blank')`}
+      class="flex cursor-pointer items-center justify-center gap-1.5 bg-emerald-500 px-3 py-2.5 text-xs font-semibold text-white transition-all hover:bg-emerald-600"
     >
       💬 WhatsApp
-    </a>
+    </span>
+  </div>
   </div>
 </a>
