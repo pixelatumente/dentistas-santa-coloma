@@ -1,12 +1,14 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M4.11835 27.4639L7.63915 11.491L23.9881 48L4.11835 27.4639Z" fill="#EC4899"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M43.8579 27.4639L40.3608 11.491L23.9881 48L43.8579 27.4639Z" fill="#EC4899"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M7.63946 11.491L4.11863 0L17.3178 11.491H7.63946Z" fill="#EC4899"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M40.3608 11.491L43.8817 0L30.6825 11.491H40.3608Z" fill="#EC4899"/>
-<path d="M23.9881 48L7.63915 11.491H24H40.3608L23.9881 48Z" fill="#EC4899"/>
-<path d="M27.5876 39.9735H20.394L23.9882 48.0002L27.5876 39.9735Z" fill="#9D174D"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M4.11835 27.464L7.63915 11.4911L23.9881 48.0001L4.11835 27.464Z" fill="#BE185D"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M43.8579 27.464L40.3608 11.4911L23.9881 48.0001L43.8579 27.464Z" fill="#BE185D"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M7.63941 11.491L4.11859 0L17.3177 11.491H7.63941Z" fill="#DB2777"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M40.3608 11.491L43.8817 0L30.6825 11.491H40.3608Z" fill="#DB2777"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#0891B2"/>
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="14" fill="url(#g)"/>
+  <!-- Simplified tooth -->
+  <g transform="translate(24,24)">
+    <path d="M-8-2C-8-7-5-11 0-11C5-11 8-7 8-2L7 12C6 16 4 18 2 18C0 18-1 16-2 12C-2.5 14-3 16-4.5 16C-7 16-8 14-8 10Z" fill="white" opacity="0.95"/>
+    <rect x="-5" y="6" width="10" height="1.5" rx="0.75" fill="#0891B2" opacity="0.12"/>
+  </g>
 </svg>
