@@ -1,0 +1,292 @@
+---
+import Layout from '../layouts/Layout.astro'
+import Section from '../components/ui/Section.astro'
+import Row from '../components/ui/Row.astro'
+import Col from '../components/ui/Col.astro'
+import data from '../data/dentistas.json'
+
+export async function getStaticPaths() {
+  return data.dentistas.map(d => ({
+    params: { slug: d.slug },
+    props: { dentista: d },
+  }))
+}
+
+const { dentista } = Astro.props
+const e = dentista
+const title = e.title
+const desc = e.description.substring(0, 200)
+const canon = `https://dentistas-santa-coloma.es/${e.slug}/`
+
+const phoneClean = e.phone ? e.phone.replace(/\s/g, '') : ''
+const whatsappUrl = phoneClean ? `https://wa.me/34${phoneClean}` : '#'
+const fullStars = Math.floor(e.rating || 0)
+const hasHalf = (e.rating || 0) - fullStars >= 0.3
+---
+
+<Layout title={`${e.title} — Dentista en Santa Coloma`} description={desc}>
+  <!-- HERO -->
+  <Section padding="top" classes="!bg-gradient-to-br !from-slate-900 !via-cyan-900 !to-cyan-700 min-h-[40vh] flex items-center">
+    <Row>
+      <Col span="12">
+        <div class="mb-4 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/8 px-4 py-1.5 text-xs font-medium text-white/75 backdrop-blur-md">
+          🦷 {e.category || "Dentista en Santa Coloma"}
+        </div>
+        <h1 class="mb-2 text-3xl font-extrabold text-white md:text-4xl">{e.title}</h1>
+        <p class="mb-4 max-w-2xl text-white/70">{e.description.substring(0, 200)}</p>
+
+        {e.rating > 0 && (
+          <div class="mb-6 flex flex-wrap items-center gap-3">
+            <div class="flex gap-0.5">
+              {[1, 2, 3, 4, 5].map(i => (
+                <span class={`text-lg ${i <= Math.round(e.rating) ? 'text-amber-400' : 'text-white/20'}`}>★</span>
+              ))}
+            </div>
+            <span class="text-lg font-bold text-white">{e.rating}</span>
+            <span class="text-white/40">·</span>
+            <span class="text-sm text-white/50">{e.reviews} {e.reviews === 1 ? 'reseña' : 'reseñas en Google'}</span>
+          </div>
+        )}
+
+        <!-- Action buttons -->
+        <div class="flex flex-wrap gap-3">
+          <a
+            href={`tel:${phoneClean}`}
+            class="inline-flex items-center gap-2 rounded-full bg-white px-6 py-2.5 text-sm font-bold text-slate-900 no-underline shadow-lg transition-all duration-300 hover:-translate-y-0.5 hover:shadow-xl lg:px-7 lg:py-3"
+          >
+            📞 {e.phone}
+          </a>
+          <a
+            href={whatsappUrl}
+            target="_blank"
+            rel="noopener"
+            class="inline-flex items-center gap-2 rounded-full bg-emerald-500 px-5 py-2.5 text-sm font-bold text-white no-underline shadow-lg transition-all duration-300 hover:-translate-y-0.5 hover:bg-emerald-600 hover:shadow-xl lg:px-6 lg:py-3"
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            WhatsApp
+          </a>
+          {e.maps_url && (
+            <a
+              href={e.maps_url}
+              target="_blank"
+              rel="noopener"
+              class="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-5 py-2.5 text-sm font-semibold text-white no-underline backdrop-blur-md transition-all duration-300 hover:border-white/40 hover:bg-white/15 lg:px-6 lg:py-3"
+            >
+              📍 Cómo llegar
+            </a>
+          )}
+        </div>
+      </Col>
+    </Row>
+  </Section>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <Section classes="bg-neutral-50 dark:bg-neutral-900">
+    <Row>
+      <!-- COLUMNA IZQUIERDA: Contacto, Destacados, Valoración -->
+      <Col span="6">
+        <div class="rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm dark:border-neutral-800 dark:bg-neutral-900">
+          <h2 class="mb-5 text-lg font-bold text-neutral-900 dark:text-white">📋 Información de contacto</h2>
+
+          <div class="flex gap-3.5 border-b border-neutral-100 px-0 py-4 last:border-b-0 dark:border-neutral-800">
+            <div class="flex size-10 shrink-0 items-center justify-center rounded-xl bg-cyan-50 text-lg dark:bg-cyan-900/30">📞</div>
+            <div>
+              <div class="mb-0.5 text-xs font-semibold uppercase tracking-wider text-neutral-400">Teléfono</div>
+              <div class="text-sm font-semibold text-neutral-900 dark:text-white">
+                <a href={`tel:${phoneClean}`} class="text-cyan-600 no-underline hover:text-cyan-700 dark:text-cyan-400">{e.phone}</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex gap-3.5 border-b border-neutral-100 px-0 py-4 last:border-b-0 dark:border-neutral-800">
+            <div class="flex size-10 shrink-0 items-center justify-center rounded-xl bg-cyan-50 text-lg dark:bg-cyan-900/30">📍</div>
+            <div>
+              <div class="mb-0.5 text-xs font-semibold uppercase tracking-wider text-neutral-400">Dirección</div>
+              <div class="text-sm font-medium text-neutral-700 dark:text-neutral-300">{e.address}</div>
+            </div>
+          </div>
+
+          {e.web && (
+            <div class="flex gap-3.5 border-b border-neutral-100 px-0 py-4 last:border-b-0 dark:border-neutral-800">
+              <div class="flex size-10 shrink-0 items-center justify-center rounded-xl bg-cyan-50 text-lg dark:bg-cyan-900/30">🌐</div>
+              <div>
+                <div class="mb-0.5 text-xs font-semibold uppercase tracking-wider text-neutral-400">Web</div>
+                <div class="text-sm font-medium">
+                  <a href={e.web.startsWith('http') ? e.web : `https://${e.web}`} target="_blank" rel="noopener" class="text-cyan-600 no-underline hover:text-cyan-700 dark:text-cyan-400">
+                    {e.web.replace('https://', '').replace('http://', '').replace(/\/$/, '')}
+                  </a>
+                </div>
+              </div>
+            </div>
+          )}
+
+          <div class="flex gap-3.5 px-0 py-4">
+            <div class="flex size-10 shrink-0 items-center justify-center rounded-xl bg-emerald-50 text-lg dark:bg-emerald-900/30">💬</div>
+            <div>
+              <div class="mb-0.5 text-xs font-semibold uppercase tracking-wider text-neutral-400">WhatsApp</div>
+              <div class="text-sm font-medium">
+                <a href={whatsappUrl} target="_blank" rel="noopener" class="inline-flex items-center gap-1 text-emerald-600 no-underline hover:text-emerald-700 dark:text-emerald-400">
+                  Enviar WhatsApp <span class="text-xs opacity-60">↗</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {e.maps_url && (
+            <a
+              href={e.maps_url}
+              target="_blank"
+              rel="noopener"
+              class="mt-4 flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-blue-600 to-blue-700 px-4 py-3.5 text-sm font-bold text-white no-underline shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-md"
+            >
+              📍 Ver en Google Maps <span class="text-xs opacity-70">↗</span>
+            </a>
+          )}
+        </div>
+
+        <!-- Destacados -->
+        {e.highlights && e.highlights.length > 0 && (
+          <div class="mt-5 rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm dark:border-neutral-800 dark:bg-neutral-900">
+            <h3 class="mb-3 text-sm font-bold text-neutral-900 dark:text-white">✨ Destacados</h3>
+            <div class="flex flex-wrap gap-2">
+              {e.highlights.map(h => (
+                <span class="rounded-full bg-cyan-50 px-4 py-1.5 text-xs font-medium text-cyan-700 dark:bg-cyan-900/30 dark:text-cyan-300">
+                  ✨ {h}
+                </span>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <!-- Valoración -->
+        {e.rating > 0 && (
+          <div class="mt-5 rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm dark:border-neutral-800 dark:bg-neutral-900">
+            <h3 class="mb-3 text-sm font-bold text-neutral-900 dark:text-white">⭐ Valoración en Google</h3>
+            <div class="flex items-center gap-4">
+              <div class="text-4xl font-bold text-cyan-600 dark:text-cyan-400">{e.rating}</div>
+              <div class="flex-1">
+                <div class="mb-1 flex gap-0.5">
+                  {[1, 2, 3, 4, 5].map(i => (
+                    <span class={`text-base ${i <= Math.round(e.rating) ? 'text-amber-400' : 'text-neutral-300 dark:text-neutral-600'}`}>★</span>
+                  ))}
+                </div>
+                <div class="text-xs text-neutral-400">{e.reviews} reseñas en Google</div>
+              </div>
+            </div>
+          </div>
+        )}
+      </Col>
+
+      <!-- COLUMNA DERECHA: Horario, Servicios, CTA -->
+      <Col span="6">
+        <!-- Horario -->
+        {e.hours && (
+          <div class="mb-5 rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm dark:border-neutral-800 dark:bg-neutral-900">
+            <h3 class="mb-4 text-sm font-bold text-neutral-900 dark:text-white">🕐 Horario</h3>
+            <div class="space-y-0">
+              {Object.entries(e.hours).map(([day, time]) => (
+                <div class="flex items-center justify-between border-b border-dashed border-neutral-100 px-0 py-2.5 text-sm last:border-b-0 dark:border-neutral-800">
+                  <span class="font-medium text-neutral-900 dark:text-white">{day}</span>
+                  <span class={time === "Cerrado" ? "font-medium text-cyan-600 dark:text-cyan-400" : "text-neutral-500 dark:text-neutral-400"}>
+                    {time}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <!-- Servicios -->
+        {e.services && e.services.length > 0 && (
+          <div class="mb-5 rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm dark:border-neutral-800 dark:bg-neutral-900">
+            <h3 class="mb-4 text-sm font-bold text-neutral-900 dark:text-white">🦷 Servicios</h3>
+            <div class="flex flex-wrap gap-2">
+              {e.services.map(s => (
+                <span class="inline-flex items-center gap-1.5 rounded-full border border-cyan-200 bg-cyan-50 px-4 py-2 text-xs font-medium text-cyan-700 dark:border-cyan-800 dark:bg-cyan-900/30 dark:text-cyan-300">
+                  🦷 {s}
+                </span>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <!-- CTA Contacto -->
+        <div class="rounded-2xl border border-cyan-200 bg-gradient-to-br from-cyan-50 to-sky-50 p-6 text-center dark:border-cyan-800 dark:from-cyan-900/30 dark:to-sky-900/30">
+          <div class="mb-1 text-sm font-bold text-cyan-800 dark:text-cyan-300">¿Necesitas contactar?</div>
+          <p class="mb-4 text-xs text-neutral-500 dark:text-neutral-400">Elige el medio que prefieras</p>
+          <div class="flex flex-wrap justify-center gap-2">
+            <a
+              href={`tel:${phoneClean}`}
+              class="inline-flex items-center gap-1.5 rounded-full bg-white px-5 py-2.5 text-xs font-bold text-slate-800 no-underline shadow-sm transition-all duration-200 hover:shadow-md dark:bg-neutral-800 dark:text-white"
+            >
+              📞 Llamar
+            </a>
+            <a
+              href={whatsappUrl}
+              target="_blank"
+              rel="noopener"
+              class="inline-flex items-center gap-1.5 rounded-full bg-emerald-500 px-5 py-2.5 text-xs font-bold text-white no-underline shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md"
+            >
+              💬 WhatsApp
+            </a>
+            {e.maps_url && (
+              <a
+                href={e.maps_url}
+                target="_blank"
+                rel="noopener"
+                class="inline-flex items-center gap-1.5 rounded-full bg-white px-5 py-2.5 text-xs font-semibold text-slate-800 no-underline shadow-sm transition-all duration-200 hover:shadow-md dark:bg-neutral-800 dark:text-white"
+              >
+                📍 Google Maps
+              </a>
+            )}
+          </div>
+        </div>
+      </Col>
+    </Row>
+
+    <!-- RESEÑAS -->
+    {e.review_snippets && e.review_snippets.length > 0 && (
+      <Row classes="mt-10">
+        <Col span="12">
+          <div class="mb-6">
+            <h2 class="mb-1 text-2xl font-bold text-neutral-900 dark:text-white">💬 Reseñas de pacientes</h2>
+            <p class="text-sm text-neutral-500 dark:text-neutral-400">Opiniones verificadas de Google</p>
+          </div>
+          <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+            {e.review_snippets.map(r => (
+              <div class="rounded-xl border border-neutral-200 bg-white p-5 shadow-sm transition-all duration-200 hover:shadow-md dark:border-neutral-800 dark:bg-neutral-900">
+                <div class="mb-2 text-sm font-medium text-amber-400">
+                  {'★'.repeat(Math.floor(r.rating))}{'☆'.repeat(5 - Math.floor(r.rating))}
+                </div>
+                <p class="mb-3 text-sm italic leading-relaxed text-neutral-600 dark:text-neutral-400">
+                  &ldquo;{r.text}&rdquo;
+                </p>
+                <div class="flex items-center gap-2.5 border-t border-neutral-100 pt-3 dark:border-neutral-800">
+                  <div class="flex size-8 items-center justify-center rounded-full bg-cyan-50 text-xs font-bold text-cyan-700 dark:bg-cyan-900/30 dark:text-cyan-300">
+                    {r.author.split(' ').map(w => w[0]).filter(Boolean).slice(0, 2).join('').toUpperCase()}
+                  </div>
+                  <span class="text-sm font-semibold text-neutral-900 dark:text-white">{r.author}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </Col>
+      </Row>
+    )}
+
+    <!-- DESCRIPCIÓN -->
+    {e.description && (
+      <Row classes="mt-8">
+        <Col span="12">
+          <div class="rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm dark:border-neutral-800 dark:bg-neutral-900">
+            <h2 class="mb-3 text-lg font-bold text-neutral-900 dark:text-white">Sobre {e.title}</h2>
+            <p class="text-sm leading-relaxed text-neutral-600 dark:text-neutral-400">{e.description}</p>
+            <div class="mt-4 flex items-center gap-1.5 border-t border-neutral-100 pt-4 text-xs text-neutral-400 dark:border-neutral-800">
+              📍 Santa Coloma de Gramenet, Barcelona
+            </div>
+          </div>
+        </Col>
+      </Row>
+    )}
+  </Section>
+</Layout>

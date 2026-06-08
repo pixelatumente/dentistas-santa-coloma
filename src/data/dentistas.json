@@ -1,0 +1,2511 @@
+{
+  "total": 49,
+  "categories": [
+    {
+      "name": "Clínica dental",
+      "slug": "clinicas-dentales",
+      "count": 36
+    },
+    {
+      "name": "Dentista",
+      "slug": "dentistas",
+      "count": 14
+    }
+  ],
+  "dentistas": [
+    {
+      "slug": "gramadent-clínica-dental",
+      "title": "Gramadent Clínica dental",
+      "category": "Clínica dental",
+      "phone": "933 85 77 95",
+      "address": "Carrer de Pompeu Fabra, 9, 08922 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Gramadent+Cl%C3%ADnica+dental/@41.4505516,2.1907911,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bc9286fda707:0x28caffb7bdd8daf4!8m2!3d41.4505516!4d2.2088155!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQ1kZW50YWxfY2xpbmljmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJvTm5WNmVFRm5FQUXgAQD6AQQIABBK!16s%2Fg%2F11b7rngm9n?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "clinicagramadent.com",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFUp2qKPAqLKkS1M_yPaIs4KSgGOKNK6oTejwIjS6ohcZeusHoG9hqEbVxs2ev3K85nU3DjFYCtYWvm6rozf3MX7-G6mKBDkHnTBEw-kxgfEmgr6OW2uN8cjIM2aAdXNIDZUxE=w408-h403-k-no",
+      "rating": 4.9,
+      "reviews": 412,
+      "description": "Gramadent Clínica dental es una clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 4.9 estrellas sobre 5 en Google.",
+      "services": [
+        "Atención pediátrica"
+      ],
+      "hours": {
+        "Lunes": "09:30–103:30, 105:30–200:00",
+        "Martes": "09:30–103:30, 105:30–200:00",
+        "Miércoles": "09:30–103:30, 105:30–200:00",
+        "Jueves": "09:30–103:30, 105:30–200:00",
+        "Viernes": "09:30–200:00",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado",
+        "412 reseñas en Google"
+      ],
+      "review_snippets": [
+        {
+          "text": "Mi dentista habitual no tenía disponibilidad para hacerme una endodoncia y desesperada entré. Me atendieron muy amablemente y me dieron cita para el día siguiente. Desde entonces me visitó aquí. Llevo ya dos endodoncias, un empaste e higienes varias. Tanto el trato de doctores/as como el de auxiliar",
+          "author": "Ana Mourelo",
+          "rating": 5.0
+        },
+        {
+          "text": "Desde que Ainoa lleva el centro la mejoría en la totalidad del servicio de esta clínica es notable. Su profesionalidad y delicadeza son impecables",
+          "author": "Leonia Zuri",
+          "rating": 5.0
+        },
+        {
+          "text": "Super contenta con el trato recibido y lo gran profesionales que son todo su equipo❤️ Hacia tiempo que no encontraba un centro dental tan top como Gramadent!!! 1000% recomendable",
+          "author": "Maria Perez Soro",
+          "rating": 5.0
+        },
+        {
+          "text": "He estado año y medio con ortodoncia, los dientes me han quedado perfectos y la atención muy buena. Buena relación calidad/precio y la clínica es un lugar agradable y confortable",
+          "author": "Mónica Gomez",
+          "rating": 5.0
+        },
+        {
+          "text": "Mi experiencia ha sido la ideal. Antes de ir a gramadent estuve mirando otros precios y calidad-precio la mejor de todas, muchas de las que fui a mirar me ofrecían presupuestos desorbitados pero gramadent desde el primer día me dieron un trato excepcional y pagaría mucho más si así fuera. Todas las ",
+          "author": "Imad Asaid",
+          "rating": 5.0
+        },
+        {
+          "text": "Excelente atención y trato muy profesional. Me sentí muy cómoda en todo momento y el resultado superó mis expectativas. ¡100% recomendable!",
+          "author": "Laia Gea",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "clínica-dental-sant-joaquím",
+      "title": "Clínica Dental Sant Joaquím",
+      "category": "Clínica dental",
+      "phone": "934 66 26 96",
+      "address": "Carrer de Sant Joaquim, 22, 08921 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Sant+Joaqu%C3%ADm/@41.4505516,2.1907911,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bc8d5a4beb43:0xf80ce4da2d944e2d!8m2!3d41.4506075!4d2.204749!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQ1kZW50YWxfY2xpbmljmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDIxek1GTnRlRlZhZW1SWVkxZDRjbE5FV1RSTlJYQnZaRmQ0VG1ReVl4QULgAQD6AQQIOhA8!16s%2Fg%2F1tdhhc9y?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHJea47M1G80HZg_5iBlYjvuR6vSG1JDHSUhxPzT0sIN4cC1UNrSS7ixmqIs52ph8g4vEBsdVXP3Vu2KO3jj2gznWY8JPPB8Es9-PvgKuFZ77iDpPrTxCMFTQs0DGCcrpQ45jx9mE88IOg9=w408-h451-k-no",
+      "rating": 4.9,
+      "reviews": 608,
+      "description": "Clínica Dental Sant Joaquím es una clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 4.9 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "09:00–200:30",
+        "Martes": "100:00–200:30",
+        "Miércoles": "09:00–200:30",
+        "Jueves": "100:00–200:30",
+        "Viernes": "09:00–200:30",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado",
+        "608 reseñas en Google"
+      ],
+      "review_snippets": [
+        {
+          "text": "Muy lindo!! Exelente, te hace un estudio muy personalizado y tambien pues muy detallista al expkicar y expiner visualmente el tratamiento a realizar. No me he hecho ningun tratamien todavia, pero me dio mucho seguridad e confianza.  Sobre precios y tal, lo he visto bien pero como todo. Ay cosas mas ",
+          "author": "Wendoly Flores",
+          "rating": 5.0
+        },
+        {
+          "text": "Hola fui por primera vez a una consulta y la verdad que me encantó el trato de la doctora!!! Es muy profesional. Explica todo lo que debes hacerte de una manera clara y sencilla.  Así que he decidido empezar mi tratamiento en esta clínica",
+          "author": "Selma Karina Gonzalez Gonzalez",
+          "rating": 5.0
+        },
+        {
+          "text": "A sido mi primera vez en visitarme. Y me ha convencido empezar los tratamientos en esta clínica. Me encantó la atención por parte de la doctora y la recepcionista me lo explicaron todo con detalles súper claro. No me cobraron la primera visita! Yo venia de otro dentista.. y nada que ver! Gracias nos",
+          "author": "Tamara Delgado ripoll",
+          "rating": 5.0
+        },
+        {
+          "text": "Hoy he ido por primera vez a una consulta y he quedado más que encantada. Viviana es quien te atiende al llegar y es muy encantadora y cercana (no solo en persona ya que había sido muy amable y paciente conmigo por teléfono para darme una…",
+          "author": "Maria Gimena Corti",
+          "rating": 5.0
+        },
+        {
+          "text": "Excelente trato y gran profesionalidad. Desde el primer momento me hicieron sentir tranquila y en confianza. El dentista explica todo con claridad y se preocupa por tu bienestar. Sin duda, lo recomiendo al 100%.",
+          "author": "sana oualit",
+          "rating": 5.0
+        },
+        {
+          "text": "Gracias por tan buena atención!! Todo lo tienen muy bien preparado a detalle. Atención rápida, buen trato y amabilidad. Las instalaciones muy limpias y agradables para esperar y ser atendido. Gracias chicas!! Excelente personal 😉…",
+          "author": "Elton Pinell",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "sonria-clinica-dental-dr-febrer",
+      "title": "Sonria Clinica Dental Dr. Febrer",
+      "category": "Clínica dental",
+      "phone": "934 66 69 69",
+      "address": "Avinguda de Santa Coloma, 27, 08922 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Sonria+Clinica+Dental+Dr.+Febrer/@41.4505516,2.1907911,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bc8d86839599:0x9f40307c646555bc!8m2!3d41.4490145!4d2.2076932!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQ1kZW50YWxfY2xpbmljmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDI1d1JWZHNVWFJUVnpVMFltMW9XVTFyV2xKVE1qbEhWRzV2TW1FeFJSQULgAQD6AQQIABBH!16s%2Fg%2F1tz7qnmd?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "sonriaclinicadental.com",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGBzOFY0O0j6q8167ISk-CqNO6tGv6eutWB_pok8jckrJVG5ARG0Pj7gS9HTHFHqGFPwik8lW0Owu9J-ZzrUr6qp455ykKUD2Uv1pPxptrXrQMr0d_zL4PW2xOYEdODF7IUhYZYGjfg2y3o=w408-h272-k-no",
+      "rating": 4.7,
+      "reviews": 342,
+      "description": "Sonria Clinica Dental Dr. Febrer es un clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 4.7 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "09:30–201:00",
+        "Martes": "09:30–201:00",
+        "Miércoles": "09:30–201:00",
+        "Jueves": "09:30–201:00",
+        "Viernes": "09:30–201:00",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado",
+        "342 reseñas en Google"
+      ],
+      "review_snippets": [
+        {
+          "text": "Muy buena experiencia en la clínica. Me realicé una higiene dental y varios empastes y todo fue perfecto. El personal es súper atento, cercano y profesional, te explican todo con calma y te hacen sentir cómoda en todo momento. El trato es muy humano y se nota que les importa el bienestar del pacient",
+          "author": "Chanel Choni Nvé",
+          "rating": 5.0
+        },
+        {
+          "text": "Solo tengo cosas buenas q decir , el trato q he tenido desde q pise la consulta ha sido excelente. En todo momento se han preocupado d que estés bien  te dan una confianza que te…",
+          "author": "Francisco Jose Calleja Hidalgo",
+          "rating": 5.0
+        },
+        {
+          "text": "Empecé en 2023 con un tratamiento de ortodoncia realizado por la Dra. Meri Puzo. Más tarde, también intervinieron el Dr. Febrer y, por último, el Dr. Marco para acabar de darme la sonrisa que tanto quería con unas carillas.…",
+          "author": "Nora Soto Cuevas",
+          "rating": 5.0
+        },
+        {
+          "text": "Me hice un tratamiento con ellos y mas encantado no puedo estar. Trato super amable y profesional siempre demostrando el interes por el paciente la recomiendo 100%",
+          "author": "Juan Carlos Sevilla Ortiz",
+          "rating": 5.0
+        },
+        {
+          "text": "La verdad que el trato es fabuloso, desde recepción , asesoría y doctores… muy recomendable hacen un muy buen trabajo y nunca e tenido ningún problema en mis tratamientos y en los de mi familia",
+          "author": "Jose Riera",
+          "rating": 5.0
+        },
+        {
+          "text": "Mi experiencia me ha cambiado la vida,llevaba muchos años que se me fue cayendo todos los dientes unas veces por verguenza y otra por miedo no iba a ninguna clínica.Una mańana entre ha preguntar a ver si mi boca tenía arreglo y con la amabilidad y las soluciones que me dieron ese miedo se me quitó.A",
+          "author": "Pilar Martín Garcia",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "clínica-dental-doctor-mas-en-santa-coloma-de-gramenet",
+      "title": "CLÍNICA DENTAL DOCTOR MAS EN SANTA COLOMA DE GRAMENET",
+      "category": "Clínica dental",
+      "phone": "934 66 15 41",
+      "address": "Avinguda de Santa Coloma, 1, 08922 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/CL%C3%8DNICA+DENTAL+DOCTOR+MAS+EN+SANTA+COLOMA+DE+GRAMENET/@41.4505516,2.1907911,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bda69c67efe1:0x1f3b42d62eebedfc!8m2!3d41.450692!4d2.2069192!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQ1kZW50YWxfY2xpbmljmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5mYkRaNlMxaFJFQUXgAQD6AQUI0wEQQQ!16s%2Fg%2F11hdln2l8z?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "doctormas.es",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEUYI6KnBUdgbRPeMuU6SEel1rYrx8TKyCoGtWQu_5jhoMSelIM-mXG9dBSjAH6DRCMalTuf9I50rd9GSngbneUETC7BYXWH3Bhp4VFp2i6rwm4LVll5IWbvMdnYNoglkVj_Bc=w408-h271-k-no",
+      "rating": 4.7,
+      "reviews": 205,
+      "description": "CLÍNICA DENTAL DOCTOR MAS EN SANTA COLOMA DE GRAMENET es un clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 4.7 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "100:00–109:30",
+        "Martes": "100:00–109:30",
+        "Miércoles": "100:00–109:30",
+        "Jueves": "100:00–109:30",
+        "Viernes": "100:00–109:30",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado",
+        "205 reseñas en Google"
+      ],
+      "review_snippets": [
+        {
+          "text": "Mi pareja y yo hemos empezado hace 12 años a ir con el Doctor Mas y como él y el resto de trabajadores excelente en todo, ahora empezamos a llevar a nuestro pequeño hijo y no tengo ninguna queja, para mí todo correcto.",
+          "author": "Wendy Chavarria",
+          "rating": 5.0
+        },
+        {
+          "text": "Buenas quería agradecer al equipo dental del doctor Más, por implicación para arreglarme los dientes, sin pasar ningún dolor y el trato personal de cada una de las personas que trabajan ahí y dudo de cambiar de dentista porque son geniales, gracias a todos 🤗…",
+          "author": "Luis González",
+          "rating": 5.0
+        },
+        {
+          "text": "Soy paciente del doct más hace más de 30 años,como trato personal es fantástico y muy profesional.",
+          "author": "Mari Lopez Sánchez",
+          "rating": 5.0
+        },
+        {
+          "text": "Te atiende muy bien y son  muy amables y a la vez serios en su trabajo.",
+          "author": "Marcos Salvador",
+          "rating": 5.0
+        },
+        {
+          "text": "Tenía un trauma con el dentista 🥹 ,por una mala experiencia,Gracias a los doctores,a  su simpatía y empatía lo he perdido. Un 10 como calidad humana para todos . No tengo queja de nadie del centro pero tuve un encontronazo, con la chica de recepción el lunes 14 al salir de consulta,me extraño el tra",
+          "author": "Paqui Sanchez Garcia",
+          "rating": 5.0
+        },
+        {
+          "text": "Una clínica que me hace sentir como en un hogar por su trato y su bien hacer. Sois humanos y profesionales",
+          "author": "adaggio59",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "prodental-clínica-dental",
+      "title": "Prodental Clínica Dental",
+      "category": "Clínica dental",
+      "phone": "933 85 03 61",
+      "address": "Carrer d'Irlanda, 58, 08922 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Prodental+Cl%C3%ADnica+Dental/@41.4505516,2.1907911,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bc8fffb68ffb:0x45e1dbb39a66f592!8m2!3d41.450139!4d2.213697!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQ1kZW50YWxfY2xpbmljmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU01TURaMmQxVm5FQUXgAQD6AQQILRBG!16s%2Fg%2F11c52_3q5_?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "prodentalblue.com",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHHoDtKwEGZdVn7g1z0ve3tC9HxZZvt-GFSOzwbofR6Y0NkFJCKYBMpXkZWHHKLguk7bIlaMdsNx5BPu--2xchQk2eh2HM2JbBEUJInIUeoojYmLMGD7h6zaN32jCFc0FWKhphA25V_2uQ=w408-h282-k-no",
+      "rating": 4.9,
+      "reviews": 215,
+      "description": "Prodental Clínica Dental es una clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 4.9 estrellas sobre 5 en Google.",
+      "services": [
+        "Atención pediátrica"
+      ],
+      "hours": {
+        "Lunes": "100:00–201:00",
+        "Martes": "100:00–201:00",
+        "Miércoles": "100:00–201:00",
+        "Jueves": "100:00–201:00",
+        "Viernes": "100:00–201:00",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado",
+        "215 reseñas en Google"
+      ],
+      "review_snippets": [
+        {
+          "text": "El trato del personal administrativo ha sido excelente, siempre atento a las necesidades personales. En cuanto al personal médico imposible hacerlo mejor, eficacia, atención personalizada y profesionalidad al máximo. Venía de unas experiencias desastrosas y el resultado aquí ha sido plenamente satis",
+          "author": "Jordi Zamora",
+          "rating": 5.0
+        },
+        {
+          "text": "En mi caso particular he tenido que someterme a una intervención costosa y complicada. El resultado es espectacularmente satisfactorio. Pero lo que me gustaría destacar es el trato personal de todos los profesionales de la clinica. En todo…",
+          "author": "Marc Cruells Monferrer",
+          "rating": 5.0
+        },
+        {
+          "text": "Excelente atención y servicio. El personal es muy profesional y atento. Totalmente recomendado!!  Muchas gracias tanto por el gran resultado como por el buen trato del personal.😊",
+          "author": "Seifo Haik",
+          "rating": 5.0
+        },
+        {
+          "text": "Prodental Clínica dental totalmente recomendable, son auténticos profesionales  mi experiencia no puede ser más positiva,  fui operado por el Dr Mateo y no he tenido ningún problema  las fotos hablan por si solas y al mismo tiempo me…",
+          "author": "Francisco Callejon",
+          "rating": 5.0
+        },
+        {
+          "text": "Excelente equipo, magnífico trato, cercanos y confiables. Muy buenos profesionales. Estoy súper contenta con ellos, me han ayudado mucho con mi fobia al dentista.…",
+          "author": "Pepi Garrido Calvo",
+          "rating": 5.0
+        },
+        {
+          "text": "Esta es mi primera vez en esta clínica dental. Siento que todos aquí son muy amables y simpáticos, como si fueran de la familia. Me atienden muy bien, me dan explicaciones perfectas y ofrecen tecnología de primera.",
+          "author": "Esteban Lu",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "clínica-dental-estudio-santa-coloma-de-gramenet",
+      "title": "Clínica Dental Estudio Santa Coloma de Gramenet",
+      "category": "Clínica dental",
+      "phone": "934 66 35 01",
+      "address": "Carrer Sant Just, 4, 08922 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Estudio+Santa+Coloma+de+Gramenet/@41.4505516,2.1907911,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bd3466d592f7:0x910366cf7ec1503a!8m2!3d41.4472831!4d2.2109925!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQ1kZW50YWxfY2xpbmljmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5TYjFwNU1GZG5FQUXgAQD6AQQIABAx!16s%2Fg%2F11mjtrdn37?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "clinicadentalestudio.com",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEuIPknbehDz-s_suOaqjy52OurIW2qD9is9DdbAsdbN0tBeystIym89oFIpEbczC2UelGHV9z5edbN1_yoFzbKwuXYi_IPd-PlD0iPncs7DBkyUh9kM7szksOWnyCJJIJ4tNag=w408-h272-k-no",
+      "rating": 5.0,
+      "reviews": 95,
+      "description": "Clínica Dental Estudio Santa Coloma de Gramenet es una clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 5.0 estrellas sobre 5 en Google.",
+      "services": [
+        "Atención pediátrica"
+      ],
+      "hours": {
+        "Lunes": "09:30–103:00, 105:30–200:00",
+        "Martes": "09:30–103:00, 105:30–200:00",
+        "Miércoles": "09:30–103:00, 105:30–200:00",
+        "Jueves": "09:30–103:00, 105:30–200:00",
+        "Viernes": "09:30–103:00, 105:30–200:00",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado",
+        "95 reseñas en Google"
+      ],
+      "review_snippets": [
+        {
+          "text": "Excelente clínica dental. Desde el primer momento el trato es profesional, cercano y muy humano. Todo el equipo transmite confianza y se nota que les importa de verdad el paciente. Mención especial para Ros, sin duda la mejor de recepción: siempre amable, atenta, resolutiva y con una sonrisa. Da gus",
+          "author": "Oriol Bertran Izquierdo",
+          "rating": 5.0
+        },
+        {
+          "text": "¡Nueva clienta que ha venido para quedarse! Fui con la intención de que me comprobaran las muelas del juicio y la posible extracción, y he salido muy contenta. El personal muy amable, ayudando e…",
+          "author": "Mia Mendez",
+          "rating": 5.0
+        },
+        {
+          "text": "Clínica Dental de confianza y familiar. Günther, Rosa, Alicia, todo el personal muy amable y profesional. Hace más de 20 años que vamos mi familia y yo, aunque no vivamos en Santa Coloma ahora seguimos yendo porque confiamos en ellos. Hemos pasado por ortodoncias, implantes, endodoncias... Y sabes q",
+          "author": "Cristina Urbina",
+          "rating": 5.0
+        },
+        {
+          "text": "He visitado esta clínica por primera vez ( sin ser cliente) y lo cierto es que ha superado todas las expectativas, desde recepción trato cordial, pasando por la consulta eficacia total pensada en el logro de resultados y NO en el lucro, recomendables 100%, volveré",
+          "author": "hazem Awad Azawi",
+          "rating": 5.0
+        },
+        {
+          "text": "Mis dos hijos han tenido que llevar ortodoncia y fuimos a esta clínica dental. Somos clientes desde hace más de 5 años. Desde el primer día han tenido muy buen trato, seguimiento y atención . Facilidad de pago. Muy recomendable!",
+          "author": "sil Ferreira",
+          "rating": 5.0
+        },
+        {
+          "text": "Que puedo decir...toda la vida con ellos, toda la familia con ellos. Sin duda, los mejores!!!!",
+          "author": "David regaño",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "vivantadental",
+      "title": "vivantadental",
+      "category": "Clínica dental",
+      "phone": "933 86 52 13",
+      "address": "Rambla de Sant Sebastià, 47, 08921 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/vivantadental/@41.4505516,2.1907911,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bdef258caa59:0x57cdbe6f77510e3a!8m2!3d41.450642!4d2.213329!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQ1kZW50YWxfY2xpbmljmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5hYTNKTU1tTjNFQUXgAQD6AQQIHRA8!16s%2Fg%2F11g10pw6mx?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "vivantadental.es",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGgVWLyMCygP_2KO8aD444v4XVnQSQSQ7GEOW_-Cvw4larR6TAflMt7J95UEf0a9361KrPX0ylvDVnmiItx4NqKMBo329MCs4nOjtteHofLiOncdXiB0C4oVEOhGBRRs3DPeAM3=w408-h259-k-no",
+      "rating": 4.6,
+      "reviews": 285,
+      "description": "vivantadental es un clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 4.6 estrellas sobre 5 en Google.",
+      "services": [
+        "Atención pediátrica"
+      ],
+      "hours": {
+        "Lunes": "100:00–104:00, 106:00–200:00",
+        "Martes": "100:00–104:00, 106:00–200:00",
+        "Miércoles": "100:00–104:00, 106:00–200:00",
+        "Jueves": "100:00–104:00, 106:00–200:00",
+        "Viernes": "100:00–104:00, 106:00–200:00",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado",
+        "285 reseñas en Google"
+      ],
+      "review_snippets": [
+        {
+          "text": "Estoy muy contenta con el tratamiento que he recibido , el personal muy agradable, los médicos muy profesionales, los recomiendo al 100%",
+          "author": "Glenda Ramirez",
+          "rating": 5.0
+        },
+        {
+          "text": "Muy buena experiencia en este dentista. El trato es cercano y profesional desde el primer momento. Quiero destacar especialmente a Nerea, que trabaja con muchísima dedicación y cuidado. Se nota su experiencia y la tranquilidad que transmite, lo cual hace que la visita sea mucho más agradable. Sin du",
+          "author": "Joan Dalmau Berengué",
+          "rating": 5.0
+        },
+        {
+          "text": "Buen equipo de profesionales y muy contenta con todo!!",
+          "author": "Fátima Elouardi",
+          "rating": 5.0
+        },
+        {
+          "text": "Trabajan bien, son atentos y profesionales. Estoy encantada con ellos.",
+          "author": "Núria Mejías",
+          "rating": 5.0
+        },
+        {
+          "text": "Equipo espectacular! Fui a una primera visita y la atención fue inmejorable por parte de todos los profesionales. Empezando por la persona que me atendió telefonicamente y me acogió a la entrada: Nerea, siempre con una sonrisa (se agradece), muy atenta y resolutiva, clara y sencilla. La doctora que ",
+          "author": "Marisol Otero Carballo",
+          "rating": 5.0
+        },
+        {
+          "text": "Estoy satisfecha y muy contenta con la clinica. Llevo muchos años von ellos y bo pienso cambiar.",
+          "author": "Francusca Yuste",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "clínica-dental-serra-i-arús",
+      "title": "Clínica Dental Serra i Arús",
+      "category": "Dentista",
+      "phone": "932 80 75 06",
+      "address": "Carrer de Santa Anna, 4, 08921 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Serra+i+Ar%C3%BAs/@41.4505516,2.1907911,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bc8d097eaf7d:0xc15874cf0d5e3edf!8m2!3d41.4517709!4d2.2062808!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQdkZW50aXN0mgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU4xYjBsUVYyaDNSUkFC4AEA-gEECAAQQQ!16s%2Fg%2F11b7q612_6?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "dentalserraiarus.com",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHooiGeVNnpN_0YhJpravs0GQrL8SrHQa6NIGv7QiECUtgnMrGslHSCQL0NW4fKlrO9VaSp6VguUCHSC07MfUky8YZGvRjfiI2EgQEckJBzGWSnU7WFfU6tiKQTfRJXxoyXwGVW=w426-h240-k-no",
+      "rating": 4.4,
+      "reviews": 48,
+      "description": "Clínica Dental Serra i Arús es una dentista ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 4.4 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "09:30–109:30",
+        "Martes": "09:30–109:30",
+        "Miércoles": "09:30–109:30",
+        "Jueves": "09:30–109:30",
+        "Viernes": "09:30–104:30",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [],
+      "review_snippets": [
+        {
+          "text": "Me he hecho un tratamiento de ortodoncia y estoy muy contenta con el resultado, personal muy profesional y agradable,  recomendada al 100%",
+          "author": "Kathia Simpson",
+          "rating": 5.0
+        },
+        {
+          "text": "Estoy haciéndome en este centro la ortodoncia invisible (Invisalign) desde hace 1 año. No les conocía de nada, simplemente fui a pedir presupuesto (después de haber mirado unos cuantos) y me gustó el trato que me dieron, aparte del precio, claro! así que decidí quedarme con ellos. Me alegro de no ha",
+          "author": "Andaira Rompo",
+          "rating": 5.0
+        },
+        {
+          "text": "Llevo desde pequeña en esta clínica y el trato es inmejorable. He llevado los brackets y estoy super contenta con el resultado. La clínica por dentro esta super limpia y el ambiente y el trato es de 10, muy profesionales !!",
+          "author": "Alba Alcalde",
+          "rating": 5.0
+        },
+        {
+          "text": "Siempre me tratan de 10. Todo el equipo es súper atento y amable. El dentista es algo que por desgracia, no todo el mundo se puede permitir y es muy necesario, ellos con sus precios lo hacen más asequible.…",
+          "author": "Carolina Jiménez Santos",
+          "rating": 5.0
+        },
+        {
+          "text": "Solo puedo decir 2 kosas: Todas las xikas majisimas y muy bien trato. El doctor un crack!! Recomiendo sta klinika 200%",
+          "author": "Maria Marie",
+          "rating": 5.0
+        },
+        {
+          "text": "Super recomendable. Las instalaciones son inmejorables con equipos modernos, y a la vez elegantes. Equipo de 10! Ambiente familiar,  trato cercano y amabilidad de todo el personal, se denota profesionalidad en cada uno de los integrantes del equipo. Sin duda lo recomiendo. ¡Enhorabuena a todo el equ",
+          "author": "Marcos Alvarez",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "famident-clinica-dental",
+      "title": "FAMIDENT CLINICA DENTAL",
+      "category": "Dentista",
+      "phone": "933 86 49 62",
+      "address": "Plaça de Ferran de Sagarra, 2, 08922 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/FAMIDENT+CLINICA+DENTAL/@41.4505516,2.1907911,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bc8e2a49f6f1:0x664f48004e483d4!8m2!3d41.450234!4d2.211143!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQdkZW50aXN0mgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU53ZVU1NlVtdDNSUkFC4AEA-gEFCI4BEEI!16s%2Fg%2F11b5pk1ftq?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "famident.es",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEfwAU3dAoAn9Bb7abV3K-Za5b2GfyB305I1y1PqycL8o4PsJym44H_BghlEluwnuF7ojk-XNSmAzyAMylSISP6-ibkss5gIPEssbJOvhzkPUOuKuQsKMrBMhBpdvucBwiASl0BPQ=w408-h269-k-no",
+      "rating": 4.8,
+      "reviews": 25,
+      "description": "FAMIDENT CLINICA DENTAL es un dentista ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 4.8 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "09:30–109:00",
+        "Martes": "09:30–109:00",
+        "Miércoles": "09:30–109:00",
+        "Jueves": "09:30–109:00",
+        "Viernes": "09:30–109:00",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado"
+      ],
+      "review_snippets": [
+        {
+          "text": "Hace muchos años que estoy en manos de Aina, incluso antes de tener su propia clínica. La recomiendo 100% por su compromiso con el servicio al paciente  y confianza total en la calidad de los materiales. He recomendado a familiares y amigos y a nadie a decepcionado.",
+          "author": "Dnunez N",
+          "rating": 5.0
+        },
+        {
+          "text": "Lo mejor que hay en Santa  coloma  de gramenet..una clínica respetuosa ,con un personal fuera de serie y la doctora AINA maravillosa,tiene unas manos que son una eminencia no te enteras de nada ,ni siquiera  de cuando te pone la anestesia...fabulosa.. no tengo palabras para decir lo agradecida que e",
+          "author": "Pepi Pérez",
+          "rating": 5.0
+        },
+        {
+          "text": "diria muchisimas cosas de esta clinica dental..pero en una palabra..maravillosa..en todo..personal amabilidad la doctora genial,tiene unas manos ,que no te enteras de nada..lo recomiendo 100´por 100..si tienes que ir a un dentista,ni te lo…",
+          "author": "Antonio Nuñez",
+          "rating": 5.0
+        },
+        {
+          "text": "Llevo muchos años acudiendo a este centro y es genial. El personal de recepción son muy amables y las Dra también.",
+          "author": "joaquincamu",
+          "rating": 5.0
+        },
+        {
+          "text": "Estoy encantada con el trato recibido por Cristina. Ha tenido mucho tacto y profesional en mi visita.Muy contenta con el presupuesto también. Feliz por poder contar con un dentista de confianza cerca de casa!",
+          "author": "RAPV 86",
+          "rating": 5.0
+        },
+        {
+          "text": "Tanto la Dra. Aina Vergés, como su equipo de trabajo, sin duda, merecen que la gente que no les conoce sepa la excelente labor que realizan dentro de su sector profesional, en todos los sentidos.…",
+          "author": "Esmeralda Sanabre",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "centro-dental-fhes",
+      "title": "Centro Dental FHES",
+      "category": "Clínica dental",
+      "phone": "936 34 79 50",
+      "address": "Avinguda Mossèn Josep Pons i Rabadà, s/n, 08923 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Centro+Dental+FHES/@41.4505516,2.1907911,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bcbd21464f15:0xd37fd1bad55f1b97!8m2!3d41.437982!4d2.2133754!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQ1kZW50YWxfY2xpbmljmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDI1a1EwOUhVbGxaVlU1Q1ZGWlNhazlJU214aU1FbDNaSHBHZFZGclJSQULgAQD6AQUIjQEQPQ!16s%2Fg%2F11f015lbz_?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "hospitalesperitsant.com",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF3pKXpUx3IZWe_zGo8DAf3LJMigCWbfLJhoB0hqVQBm6pwC1hIoRPunDbyFOSDDFaSIIN6xMf54b6V_OCYsP2eA7IrzFHTTsZAmHixa_cK35rpBrzAlQICj4iqzeP1u4KycUUnhg=w426-h240-k-no",
+      "rating": 4.6,
+      "reviews": 208,
+      "description": "Centro Dental FHES es un clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 4.6 estrellas sobre 5 en Google.",
+      "services": [
+        "Atención pediátrica"
+      ],
+      "hours": {
+        "Lunes": "09:00–201:00",
+        "Martes": "09:00–201:00",
+        "Miércoles": "09:00–201:00",
+        "Jueves": "09:00–201:00",
+        "Viernes": "09:00–201:00",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado",
+        "208 reseñas en Google"
+      ],
+      "review_snippets": []
+    },
+    {
+      "slug": "clínica-dental-dr-hernán-tomás",
+      "title": "Clínica Dental Dr. Hernán Tomás",
+      "category": "Clínica dental",
+      "phone": "934 61 53 12",
+      "address": "Carrer de Sant Ramon, 9, bajos, 08922 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Dr.+Hern%C3%A1n+Tom%C3%A1s/@41.437982,2.195351,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bc8e2063ffa9:0xc821d544f1bbea07!8m2!3d41.4502934!4d2.2102772!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQ1kZW50YWxfY2xpbmljmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU10WnpoeFJFZEJFQUXgAQD6AQQIABBI!16s%2Fg%2F11gglsfnz2?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "clinicadentalhernantomas.com",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE5jFbtI8ec1_YE0bJrE6W7hjs-NTZn7C0EkrTCnz175UBQhssmKoxO5HRy2RF5h62nIKrnVTnun97lxbpF1mCamNrnqBQNh1ZfBYn-kvf2TlNUw1g-A3yF4L-P6XJwmSwBwS3mpA=w427-h240-k-no",
+      "rating": 4.8,
+      "reviews": 45,
+      "description": "Clínica Dental Dr. Hernán Tomás es una clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 4.8 estrellas sobre 5 en Google.",
+      "services": [
+        "Atención pediátrica"
+      ],
+      "hours": {
+        "Lunes": "100:00–104:00, 106:00–200:00",
+        "Martes": "100:00–104:00, 106:00–200:00",
+        "Miércoles": "100:00–104:00, 106:00–200:00",
+        "Jueves": "100:00–104:00, 106:00–200:00",
+        "Viernes": "100:00–104:00, 106:00–200:00",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado"
+      ],
+      "review_snippets": [
+        {
+          "text": "Llevo más de 10 años con él y 8 implantes, mi experiencia es fantástica. Y mi dentista de confianza. Gran profesional.",
+          "author": "javier González",
+          "rating": 5.0
+        },
+        {
+          "text": "Hernán me parece un profesional super pragmático y práctico. Siempre ha resuelto muy bien y rápido. Super recomendable.",
+          "author": "Angel Adrian De Brito",
+          "rating": 5.0
+        },
+        {
+          "text": "Hace más de 10 años que me atienden Hernan, súper profesional , lo recomiendo. Yanina y Hernan son un encanto de personas. Súper feliz siempre con su servicio",
+          "author": "Marcelo Augelli",
+          "rating": 5.0
+        },
+        {
+          "text": "Grandes profesionales, trato muy humano y cercano. Experiencia totalmente positiva y recomendable al 1000×1000",
+          "author": "Miriam Gonzalez Cano",
+          "rating": 5.0
+        },
+        {
+          "text": "Un trato magnífico por parte de los 2, forman un buen equipo. El lugar transmite paz y confianza que eso en un dentista ¡es mucho!",
+          "author": "Lourdes Martínez",
+          "rating": 5.0
+        },
+        {
+          "text": "Me hice ortodoncía invisible y me quedó muy bien. Me trato el dr. Hernan Tomás, quien tiene la especialidad- doctorado en ortodoncia. Los recomiendo 100%. Estoy encantada con mi sonrisa!.",
+          "author": "Cristina Gomez",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "clínica-dental-drjserra",
+      "title": "Clínica Dental Dr.J.Serra",
+      "category": "Dentista",
+      "phone": "934 66 17 21",
+      "address": "Rambla de Sant Sebastià, 52, 08922 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Dr.J.Serra/@41.4502934,2.1922528,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bc8fdc30e127:0x20b4abe23c519f85!8m2!3d41.4503684!4d2.2123112!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hkgEHZGVudGlzdOABAA!16s%2Fg%2F11ddwz5xw8?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "",
+      "photo_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=xkmcPTraKFQgftoo5INwSg&cb_client=search.gws-prod.gps&w=408&h=240&yaw=212.83458&pitch=0&thumbfov=100",
+      "rating": 5.0,
+      "reviews": 4,
+      "description": "Clínica Dental Dr.J.Serra es una dentista ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 5.0 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "Cerrado",
+        "Martes": "Cerrado",
+        "Miércoles": "Cerrado",
+        "Jueves": "Cerrado",
+        "Viernes": "Cerrado",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado"
+      ],
+      "review_snippets": [
+        {
+          "text": "¡Muy buena atención al cliente! Por ser un dentista, da mucha confianza y seguridad!",
+          "author": "Javier Duran- Sindreu Alomar",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "clínica-dental-aldana",
+      "title": "Clínica Dental Aldana",
+      "category": "Clínica dental",
+      "phone": "933 86 06 53",
+      "address": "Paseo Lorenzo Serra, 2, 08921 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Aldana/@41.4502934,2.1922528,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bc8dee809479:0x1dcfba73ca21c9fc!8m2!3d41.4511764!4d2.2077552!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQ1kZW50YWxfY2xpbmljmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5HT1VwRVlsaDNFQUXgAQD6AQQIABAy!16s%2Fg%2F1tfv7gnq?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "cdentalaldanaizquierdo.com",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFHUoVADEQC6TQIsPIFTlooTLz5UpB4i5etsh8rjsUA6T4i4oxVIaQ6swUarQiG077KV1wobaljcR_hyaRBTyovSly-iECdTHjjSJq06wbxCNboVvscvcoZ-BoDcuU2jvDNKOTm=w534-h240-k-no",
+      "rating": 4.5,
+      "reviews": 31,
+      "description": "Clínica Dental Aldana es una clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 4.5 estrellas sobre 5 en Google.",
+      "services": [
+        "Atención pediátrica"
+      ],
+      "hours": {
+        "Lunes": "09:00–200:00",
+        "Martes": "09:00–200:00",
+        "Miércoles": "09:00–200:00",
+        "Jueves": "09:00–200:00",
+        "Viernes": "09:00–109:30",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado"
+      ],
+      "review_snippets": [
+        {
+          "text": "Hace años que cuidan mi salud bucal y estoy muy feliz de ser atendida por tan grandes profesionales. No quiero nombrar a nadie en concreto porque cada uno en su campo es excepcional,incluso la recepción!!! Gracias por vuestra profesionalidad,empatia y proximidad.",
+          "author": "Antonia Martinez",
+          "rating": 5.0
+        },
+        {
+          "text": "Muy buenos profesionales y una atención excelente. Además el trato es cercano y buscando la mejor solución. La clínica es preciosa y además disponen de la última tecnología. Los recomiendo sin dudarlo!!! 100%%%",
+          "author": "Enric Pla",
+          "rating": 5.0
+        },
+        {
+          "text": "La mejor limpieza de boca que me han hecho. La profesional me lo hizo con profundidad y explicandome a cada momento lo que estaba haciendo. Que bien haber encontrado esta clinica.",
+          "author": "marina de la hija",
+          "rating": 5.0
+        },
+        {
+          "text": "Fui hace una semana para una raspado de encías. La dentista me hizo sentir tranquila, cómoda y estuvo muy pendiente de mi durante el tratamiento. No tuve ningún dolor. A parte de su profesionalidad, otro aspecto que me gusto fue que me dieron recomendaciones para en un futuro no tener que hacerme ot",
+          "author": "Gloria De Molina",
+          "rating": 5.0
+        },
+        {
+          "text": "Soy paciente de ellos desde hace más de 20 años. No soy del barrio pero el esfuerzo de desplazarme gasta allí merece la pena. A parte de su profesionalidad y del buen trato al cliente, para mi lo mejor es…",
+          "author": "Mayte MUSICA",
+          "rating": 5.0
+        },
+        {
+          "text": "Muy profesionales y agradables. Te explican todo con detalle y no son nada peseteros, muy recomendable esta clínica!",
+          "author": "Lluis Peinado",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "clínica-dental-gramenet",
+      "title": "Clínica Dental Gramenet",
+      "category": "Clínica dental",
+      "phone": "934 68 03 61",
+      "address": "Av. de l'Anselm de Riu, 24, 28, 08924 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Gramenet/@41.4502934,2.1922528,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bc5f0d84ff4f:0xce742b8bb1f40651!8m2!3d41.457937!4d2.2014723!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hkgEQc2hvZV9yZXBhaXJfc2hvcOABAA!16s%2Fg%2F1tfn5_7p?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "",
+      "photo_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ysW_kR3bI1wB2BV2Cs7b8A&cb_client=search.gws-prod.gps&w=408&h=240&yaw=118.66191&pitch=0&thumbfov=100",
+      "rating": 5.0,
+      "reviews": 1,
+      "description": "Clínica Dental Gramenet es una clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 5.0 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "Cerrado",
+        "Martes": "Cerrado",
+        "Miércoles": "Cerrado",
+        "Jueves": "Cerrado",
+        "Viernes": "Cerrado",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado"
+      ],
+      "review_snippets": []
+    },
+    {
+      "slug": "clínica-dental-dentobucal-santa-coloma",
+      "title": "Clínica Dental Dentobucal Santa Coloma",
+      "category": "Clínica dental",
+      "phone": "936 24 46 49",
+      "address": "Avinguda de Santa Coloma, 8, 08922 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Dentobucal+Santa+Coloma/@41.457937,2.1834479,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bdfde863f4a7:0xfc451468b05e9f8a!8m2!3d41.4502543!4d2.2067148!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQ1kZW50YWxfY2xpbmljmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJ4R1ZrMHlWbEZrUjJ4NVdsUmFSMkV3YkVkaWJEbG1WRmhPYW1Nd1JSQULgAQD6AQQIABBE!16s%2Fg%2F11myz77c7n?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "clinicadentobucal.es",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFE3iNKjAwjlxUEOGnJGI7xbHEk3KocDbxP84CeNWe-syENJR2Ll5F76AOp7EQDrJVKDmk14rmr7Qqy2yWxUswVWrgoO-bsVc4jJpGR-DKAUT9GUkM8d9JSvjmLiSgAVwAjpXn0Yi8QnN4i=w408-h509-k-no",
+      "rating": 4.2,
+      "reviews": 5,
+      "description": "Clínica Dental Dentobucal Santa Coloma es una clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 4.2 estrellas sobre 5 en Google.",
+      "services": [
+        "Atención pediátrica"
+      ],
+      "hours": {
+        "Lunes": "100:00–104:00, 105:30–200:00",
+        "Martes": "100:00–104:00, 105:30–200:00",
+        "Miércoles": "100:00–104:00, 105:30–200:00",
+        "Jueves": "100:00–104:00, 105:30–200:00",
+        "Viernes": "100:00–104:00",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [],
+      "review_snippets": [
+        {
+          "text": "No pude haber escogido una mejor clínica para cuidar mi salud bucal.  El buen trato, el cuidado a la hora de realizar los procedimientos y como te orientan para buscar siempre la mejor alternativa para cuidar tus dientes es todo lo que uno puede esperar y habla muy bien del profesionalismo y comprom",
+          "author": "Bárbara Rodríguez",
+          "rating": 5.0
+        },
+        {
+          "text": "Hice la primera visita y estoy encantada y me hicieron un 25% de descuento en los implantes",
+          "author": "yuliana",
+          "rating": 5.0
+        },
+        {
+          "text": "Trato inmejorable !!! , por apertura tienen un 25% de descuento que merece la pena aprovechar .",
+          "author": "Mimiycuatromas Mimiycuatromas",
+          "rating": 5.0
+        },
+        {
+          "text": "Gran equipo y grandes profesionales",
+          "author": "ana sanchez",
+          "rating": 5.0
+        },
+        {
+          "text": "Hola, le recomiendo no se deje impresionar por el pica-pica de Bienvenida, y por los descuentos de Bienvenida. Yo estuve atendida en la misma clínica en Sant Adrià del Besòs, y al principio si muy atentos y muy simpáticos, tan simpáticos…",
+          "author": "Alicia Rojano",
+          "rating": 1.0
+        }
+      ]
+    },
+    {
+      "slug": "clínica-dental-dra-araceli-garcía-lópez",
+      "title": "Clínica Dental Dra. Araceli García López",
+      "category": "Clínica dental",
+      "phone": "933 92 00 15",
+      "address": "Carrer de Prat de la Riba, 42, BAJO, 08921 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Dra.+Araceli+Garc%C3%ADa+L%C3%B3pez/@41.457937,2.1834479,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bd1599ffc729:0x5316ae862dd02e6d!8m2!3d41.455205!4d2.2078992!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hkgENZGVudGFsX2NsaW5pY-ABAA!16s%2Fg%2F11ybph0v20?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGJwwwUid4GXV-zTBP8SguoRyZ7bRaZPNeE9zTh8H3yTz3u-fYdLTY4f1j4yutKTqxDsEfyl-sFkyFXfx_9Aff9RoKD1WJSHTjerRKS8bLgHdH9WSwgsPHyGwO__W6LWXYYLltv=w408-h300-k-no",
+      "rating": 5.0,
+      "reviews": 1,
+      "description": "Clínica Dental Dra. Araceli García López es una clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 5.0 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "100:00–102:30, 105:30–200:30",
+        "Martes": "100:00–102:30, 105:30–200:30",
+        "Miércoles": "100:00–102:30, 105:30–200:30",
+        "Jueves": "100:00–102:30, 105:30–200:30",
+        "Viernes": "100:00–102:30, 105:30–200:30",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado"
+      ],
+      "review_snippets": [
+        {
+          "text": "Muchas gracias por las explicaciones y el posterior trabajo bien hecho 👍🏻…",
+          "author": "Albert Atiénzar León",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "clínica-dental-orthodontic",
+      "title": "Clínica Dental Orthodontic",
+      "category": "Clínica dental",
+      "phone": "934 66 51 80",
+      "address": "Carrer d'Irlanda, 82, 08922 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Orthodontic/@41.457937,2.1834479,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bc9aa2cb9c2b:0x2bfd5684a026e116!8m2!3d41.4487732!4d2.2143107!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQ1kZW50YWxfY2xpbmljmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJTY1dabFdIWkJSUkFC4AEA-gEECAAQRQ!16s%2Fg%2F1tp1d9wn?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "orthodontic.es",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFM8HmWihPGb54M_KKqk7F2rljEBRPZftbdbDv6sJs_DeBPqYKwsvvqYZV6CqkWmiMQURqsWSS_WNS10vn9vDTitI9DfEO9nT-M6b3qMI3w6KxGfHgb4lXiFDaLxuQcSNaG5hfTKg=w408-h544-k-no",
+      "rating": 4.7,
+      "reviews": 102,
+      "description": "Clínica Dental Orthodontic es una clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 4.7 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "101:00–104:00, 105:00–200:00",
+        "Martes": "101:00–104:00, 105:00–200:00",
+        "Miércoles": "101:00–104:00, 105:00–200:00",
+        "Jueves": "101:00–104:00, 105:00–200:00",
+        "Viernes": "100:00–104:30, 105:30–109:30",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado",
+        "102 reseñas en Google"
+      ],
+      "review_snippets": [
+        {
+          "text": "Es la mejor clínica en la que e podido ir, la boca me la dejaron increíble y no sentí nada de dolor, super atentos en todo momento y muchísima paciencia conmigo. Pienso llevar a mi familia completa. Además los precios son increíbles.",
+          "author": "francisco Revelo Colmenar",
+          "rating": 5.0
+        },
+        {
+          "text": "Muchas gracias por el profesionalismo de siempre, y por la calidez y cordialidad del personal, tanto médico como administrarivo, da gusto ser atendido tan bien.",
+          "author": "Adrian Cantisani",
+          "rating": 5.0
+        },
+        {
+          "text": "Estoy muy satisfecho con el servicio recibido en la clínica. El trato fue excelente desde el primer momento, con un equipo profesional y amable que me hizo sentir cómodo y bien atendido. Las instalaciones son modernas y muy limpias, lo que me dio mucha confianza. El tratamiento fue eficaz y los resu",
+          "author": "Zaka G",
+          "rating": 5.0
+        },
+        {
+          "text": "Acabo mi tratamiento de ortodoncia súper feliz y contenta y con el resultado, me han dejado una sonrisa de 10 ❤️ Todas las personas que trabajan allí y me han atendiendo durante este tiempo son increíbles, Lola, todas las chicas y el doctor, son súper profesionales y siempre a disposición y con cual",
+          "author": "Daniela Diaz",
+          "rating": 5.0
+        },
+        {
+          "text": "Excelente servicio y personal! 100% recomendado …",
+          "author": "Rafael Ramirez Bisonó",
+          "rating": 5.0
+        },
+        {
+          "text": "Recientemente inicie un tratamiento en este centro. En todas las visitas me he sentido muy comodo. El trato de todo el personal es siempre muy cálido, agradable y sobre todo muy profesional. Lo recomiendo sin ninguna duda.",
+          "author": "Janner geovanny Ceballos ipia",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "clínica-dental-adeslas",
+      "title": "Clínica Dental Adeslas",
+      "category": "Clínica dental",
+      "phone": "900 229 922",
+      "address": "Carrer de Sant Carles, 59, 61, 08922 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Adeslas/@41.4487732,2.1962863,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bc91f33c62d1:0xe0c33088f1bc9dd7!8m2!3d41.4490295!4d2.2092945!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQ1kZW50YWxfY2xpbmljmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5hTTFCeE5qQjNSUkFC4AEA-gEECAAQNw!16s%2Fg%2F11c0vbsbs8?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "adeslasdental.es",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGWriOVlaxomraJG6hfeDZ7Hnj1-HKI2OqNLQ9CVhhHPVb6C0ibSB1Ipm0XALS-0xXQh-7CwxFGn8zUApBLvDwyifTz6xoCLrV7PF4ys1zTpGV1QdxUer_XJ-zRvCDWbMRuCd0S=w426-h240-k-no",
+      "rating": 4.5,
+      "reviews": 277,
+      "description": "Clínica Dental Adeslas es una clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 4.5 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "09:00–104:00, 106:00–201:00",
+        "Martes": "09:00–104:00, 106:00–201:00",
+        "Miércoles": "09:00–104:00, 106:00–201:00",
+        "Jueves": "09:00–104:00, 106:00–201:00",
+        "Viernes": "09:00–104:00, 106:00–201:00",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado",
+        "277 reseñas en Google"
+      ],
+      "review_snippets": []
+    },
+    {
+      "slug": "clínica-dental-sant-carles",
+      "title": "Clínica Dental Sant Carles",
+      "category": "Dentista",
+      "phone": "933 85 25 22",
+      "address": "Carrer de Sant Carles, 64, 08922 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Sant+Carles/@41.4487732,2.1962863,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bc91f66d1583:0x733c3a7c9e2daf4d!8m2!3d41.4492456!4d2.2089926!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hkgEHZGVudGlzdOABAA!16s%2Fg%2F11fk8_zvkh?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHfCbTdRzXJDTgST8CToEBndO2tjh0M5zf8nHrEoxrAy1yhgFA8-hiHu5iK-rfraEPTI9CpTmFR4AMCUFZwWLLnNjRvgfw-J7MGPK_hO9sdCPcC5jrx-o0UdEaBN8paNxaArdA=w408-h306-k-no",
+      "rating": 4.7,
+      "reviews": 20,
+      "description": "Clínica Dental Sant Carles es una dentista ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 4.7 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "09:00–103:00, 106:00–200:00",
+        "Martes": "09:00–103:00, 106:00–200:00",
+        "Miércoles": "09:00–103:00, 106:00–200:00",
+        "Jueves": "09:00–103:00, 106:00–200:00",
+        "Viernes": "Cerrado",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado"
+      ],
+      "review_snippets": [
+        {
+          "text": "Fui allí recomendada por una muy buena amiga, su familia iba toda allí Y la verdad yo también ya estoy con Alberto desde hace 2 años y medio Es el primer dentista que me dice, si no es necesario no se hace. Me sentí que no son unos saca dinero, como pude comprobar anteriormente en otros dentistas. S",
+          "author": "Gemma Gemma",
+          "rating": 5.0
+        },
+        {
+          "text": "Inmejorable trato y atención!! Llevo muchos años yendo a esta clínica y siempre quedo muy satisfecha. Cada año me hago una higiene bucal y el equipo y los resultados son impecables.…",
+          "author": "Carlota Guilera",
+          "rating": 5.0
+        },
+        {
+          "text": "La doctora Serra es simplemente maravillosa. Para mi era un trauma ir al dentista y ella hace que vaya tranquila. Tiene unas manos de santo....!!! El trato es dulce y paciente... el resultado perfecto. Recomiendo la clínica al 100% . Se nota que tiene vocación por su profesión. Muy agradecida a la D",
+          "author": "Carlota",
+          "rating": 5.0
+        },
+        {
+          "text": "Toda mi familia acude a la Clinica Dental San Carlos desde hace 18 años.  Muy bien atendidos por todo el equipo, sobre todo la Dra Serra quien ha conseguido quitarnos el miedo de ir a visitar el dentista.  Hemos hecho varios tratamientos, mis 2 hijas se han corregido los dientes con hierros, mi mari",
+          "author": "Gill Johnson",
+          "rating": 5.0
+        },
+        {
+          "text": "Me he hecho varios tratamientos allí, incluidas limpiezas, una reconstrucción y también una férula dental. Yo era de las personas a las que no les gustaba nada ir al dentista hasta que me atendió la Dra. Serra. Maravillosa tanto desde el punto de vista técnico como de trato. Recomiendo esta clínica ",
+          "author": "Lucia Arana",
+          "rating": 5.0
+        },
+        {
+          "text": "Pongo 5 estrellas porque no puedo poner más. La Dra. Serra lleva tratándome toda la vida. No solo es una buenísima profesional sino que la clínica y el resto de personal…",
+          "author": "Marta Guilera serra",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "ab-santa-coloma-clinica-dental-absc",
+      "title": "AB Santa Coloma Clinica Dental (ABSC)",
+      "category": "Clínica dental",
+      "phone": "933 92 39 89",
+      "address": "Carrer de Mozart, 41, Local 2, 08921 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/AB+Santa+Coloma+Clinica+Dental+(ABSC)/@41.4487732,2.1962863,15z/data=!3m1!5s0x12a4bc840d7a307b:0x5c2bf632cf01d670!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bc841283ad71:0xda16989a789f3c1c!8m2!3d41.4538072!4d2.2181288!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQ1kZW50YWxfY2xpbmljmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDI1Q1FrNVZTalZoYldoMlkxUldiVko2VGxaVU1HUlpaRmhPVEZreVl4QULgAQD6AQQINRA4!16s%2Fg%2F1vgx2std?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "absantacolomadental.com",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGqMjpbblVDT-V47pkgC65Se7ZYHfEpq0QwnnoHQiCWHuxjcBbfx1EXCaJdhmUBnbvl0urC3KmRNd-JufEmaNml-3whg0fL_jzAP83X-73WgGBEYxhZKrkNwrVl-ldMJgpRAqynnA=w408-h306-k-no",
+      "rating": 4.8,
+      "reviews": 31,
+      "description": "AB Santa Coloma Clinica Dental (ABSC) es un clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 4.8 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "09:00–104:00, 105:00–200:00",
+        "Martes": "09:00–104:00, 105:00–200:00",
+        "Miércoles": "09:00–104:00, 105:00–200:00",
+        "Jueves": "09:00–104:00, 105:00–200:00",
+        "Viernes": "09:00–104:00",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado"
+      ],
+      "review_snippets": [
+        {
+          "text": "Siempre ha sido de maravilla, mi nombre es Tatiana . Excelente atención 🥰 pronto agenda re para mi limpieza .…",
+          "author": "dianita perez",
+          "rating": 5.0
+        },
+        {
+          "text": "Estamos muy satisfechos tanto con el trato como en lo profesional con un problema que tuvo mi hija, nos asesoraron muy bien sobre las posibles soluciones, y estamos encantados. Muy profesionales, amables. Lo recomiendo al 100%",
+          "author": "joaquin prieto lopez",
+          "rating": 5.0
+        },
+        {
+          "text": "Muy grandes profesionales y con un trato exquisito. Consiguieron hacerme un tratamiento para un diente con el nervio muerto. El diente ha quedado perfecto y ha recuperado el color blanco. Estoy muy agradecido :)",
+          "author": "Alex De La Fuente",
+          "rating": 5.0
+        },
+        {
+          "text": "Magnífic@s por su profesionalidad y buen hacer, pero también por la amabilidad y la tranquilidad que transmiten, además de unos precios honestos! 100% recomendables",
+          "author": "andres lopez perez",
+          "rating": 5.0
+        },
+        {
+          "text": "Todo perfecto,  yo casi nunca escribo, ni pongo valoraciones, pero esta vez se lo merecen. Todo muy profesional, venía de otra clínica con dudas y aquí me lo aclararon todo perfectamente,  y el trabajo que me hicieron de 10. Ya tenéis un nuevo cliente.",
+          "author": "Catwolf83 GatoLobo83",
+          "rating": 5.0
+        },
+        {
+          "text": "Profesionales muy preparados y cualificados, muy contenta con las limpiezas bucales  y con todo lo que me han hecho. Muy amables, muy limpio el local. Todo genial",
+          "author": "Sol Cerro",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "clínica-dental-dra-adriana-gutierrez",
+      "title": "Clínica Dental Dra. Adriana Gutierrez",
+      "category": "Clínica dental",
+      "phone": "935 22 27 82",
+      "address": "Av. d'Icària, 134, 138, Sant Martí, 08005 Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Dra.+Adriana+Gutierrez/@41.38947,2.1772956,15z/data=!4m9!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m5!1s0x12a4a30fe9eb2da3:0xfe9ca7da296ccc3c!8m2!3d41.3894699!4d2.1953197!16s%2Fg%2F11fxxxvsf0?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "dentaladriana.com",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEl5MU61j0xYMxGl-pHBLneiJv8cQYQwFiipOCGoeOKYdR7sLC3t-kj0YhagoguTigAmAt5iYSs1fNBpMfrJ163tQceDQdzXo94HozGXlfjPIIXUdc29DXtj0fmThnSl3V6Rfwd=w408-h272-k-no",
+      "rating": 4.8,
+      "reviews": 239,
+      "description": "Clínica Dental Dra. Adriana Gutierrez es una clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 4.8 estrellas sobre 5 en Google.",
+      "services": [
+        "Atención pediátrica"
+      ],
+      "hours": {
+        "Lunes": "100:00–200:00",
+        "Martes": "100:00–200:00",
+        "Miércoles": "100:00–200:00",
+        "Jueves": "100:00–200:00",
+        "Viernes": "100:00–107:30",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado",
+        "239 reseñas en Google"
+      ],
+      "review_snippets": [
+        {
+          "text": "Aconsejo visitarse en Clinica Dra. Adriana Gutiérrez . He asistido habitualmente para limpiezas dentales , urgencias, tratamientos de ortodoncia , invisa align , revisiones periódicas entre otros y lo recomiendo encarecidamente .Varios amigos y familiares a quien he recomendado también van y se han ",
+          "author": "Virginia Elguero",
+          "rating": 5.0
+        },
+        {
+          "text": "Fui a la clínica Adrina Gutiérrez para realizarme un tratamiento que consistía en colocar dos carillas en los dos dientes delanteros y no puedo estar más contenta con el resultado. El acabado ha sido excelente, muy natural y muy bien hecho, exactamente lo que buscaba. Además, la doctora Gabriela fue",
+          "author": "Claudia Martin",
+          "rating": 5.0
+        },
+        {
+          "text": "Fui a hacerme una higiene bucal con mi hijo, una experiencia muy agradable y un trato muy amable, la higienista Nazarena me ha tratado con mucha delicadeza y profesionalidad y me ha dado un montón de recomendaciones para mantener la boca…",
+          "author": "Sabrina Marrero",
+          "rating": 5.0
+        },
+        {
+          "text": "Empecé recientemente mi tratamiento dental en esta clínica y hasta ahora la experiencia ha sido maravillosa. Excelente atención desde el primer momento. El personal es muy amable y profesional, y me hicieron sentir cómodo durante todo el tratamiento. ¡Totalmente recomendados!",
+          "author": "Demelo Luana",
+          "rating": 5.0
+        },
+        {
+          "text": "Increíbles profesionales con un trato excepcional. Uso de última tecnología. Mi experiencia ha sido increíble y muy contento con el resultado. Por mi parte, prefiero pagar su precio y estar tranquilo y seguro de un buen resultado.",
+          "author": "Ricard Cos",
+          "rating": 5.0
+        },
+        {
+          "text": "Llevo muchos años con ellos, prácticamente desde que abrieron y estoy muy contenta. Adriana y todo su equipo son súper agradables, atentos y sobre todo profesionales. Siempre buscan un equilibrio entre salud y estética. Cuentan con las últimas tecnologías. Toda mi familia somos pacientes, incluida m",
+          "author": "Natalia Griñón",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "dentisalut",
+      "title": "Dentisalut",
+      "category": "Clínica dental",
+      "phone": "934 08 51 97",
+      "address": "Plaça de Garrigó, 18, Nou Barris, 08016 Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Dentisalut/@41.428914,2.1637616,15z/data=!4m9!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m5!1s0x12a4bd2858aad8d5:0x863b7c3308164fc7!8m2!3d41.4289144!4d2.1817864!16s%2Fg%2F1v6gb8n3?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "dentisalut.com",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHyqAA1Kim94780VCEEHWqmd7ogi_zINV0dnBtqskiws-l9HLm4eVVVREY9gKcFyJpBrXq3vFdhfPKc6efvkkja2bWWdoV8IWxNxECuQlRBwQS_yIYYRF-4ohnmWDa7xk9bn_8xdw=w408-h257-k-no",
+      "rating": 4.8,
+      "reviews": 255,
+      "description": "Dentisalut es un clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 4.8 estrellas sobre 5 en Google.",
+      "services": [
+        "Atención pediátrica"
+      ],
+      "hours": {
+        "Lunes": "09:30–103:30, 106:00–200:00",
+        "Martes": "09:30–103:30, 106:00–200:00",
+        "Miércoles": "09:30–103:30, 106:00–200:00",
+        "Jueves": "09:30–103:30, 106:00–200:00",
+        "Viernes": "09:30–103:30, 106:00–200:00",
+        "Sábado": "100:00–104:00",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado",
+        "255 reseñas en Google"
+      ],
+      "review_snippets": [
+        {
+          "text": "La atención de la persona de recepción que es Montse a sido increíble, educada, amable, respetuosa y atenta en todo momento. Felicidades al doctor y sus ayudantes/as porque han sido muy profesionales,,después de la operación te llaman y se preocupan por si estás bien, la verdad un después de haber v",
+          "author": "Jose Manuel",
+          "rating": 5.0
+        },
+        {
+          "text": "Ayer le hicieron una Sedación general  a mi hijo de 6 años tenía miedo como cualquier madre pero al hablar con Monset, la Pediatra Dra. Sandra y el Anestesiólogo el Dr David me dieron confianza y seguridad en su trabajo, hoy mi hijo…",
+          "author": "Lesbin Acosta",
+          "rating": 5.0
+        },
+        {
+          "text": "No puedo estar más satisfecho con la atención recibida en esta clínica dental. Vine por un dolor de muela y me lo resolvieron el mismo día. La atención, la amabilidad y el trato de las doctoras ha sido fenomenal. Muchísimas gracias!",
+          "author": "Jiří Brom",
+          "rating": 5.0
+        },
+        {
+          "text": "Confío en ellos plenamente, llevo años tratándome allí junto con mi hija de 6 años. Después de tener una mala experiencia en otro centro con mi hija, Sandra en especial nos ha ayudado muchísimo, mi hija le tiene mucho aprecio. Te atienden en cualquier urgencia , siempre te hacen un hueco, dan un seg",
+          "author": "Nathaly Solange Arce Maldonado",
+          "rating": 5.0
+        },
+        {
+          "text": "Muy buena experiencia. Vamos casi toda la familia y el servicio es muy bueno y el precio no es excesivamente caro. Estoy encantada con la atención que tienen a los más pequeños 🥰…",
+          "author": "Marina Vargas-Machuca Gomez",
+          "rating": 5.0
+        },
+        {
+          "text": "Hoy sábado acudí sin cita después de 4 días sintiendo un dolor que no se lo deseo a nadie. La recepcionista/ enfermera no solo me hizo un hueco sino que Gianfranco, el dentista, me hizo un drenaje de urgencia excepcional en la base del flemón. Muchísimas Gracias, de verdad.",
+          "author": "Mariano Sobot De Maria",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "clínica-dental-vitaldent",
+      "title": "Clínica Dental Vitaldent",
+      "category": "Clínica dental",
+      "phone": "933 86 05 05",
+      "address": "Carrer d'Irlanda, 59, 08922 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Vitaldent/@41.428914,2.1637616,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bc85546f78c7:0xb8aadb7dc30c020f!8m2!3d41.4500811!4d2.2142128!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQ1kZW50YWxfY2xpbmljmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5UVVJSTkZweGMwUlJFQUXgAQD6AQQIABA4!16s%2Fg%2F1jkxvntz8?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "clinicas.vitaldent.com",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHhbZZaXx0RRGANZxV0rldHerTWTlvcp3ugY6zFOX300KEjLp_rv5gz5YpOvTAJD6USpx7tDaUTP_ODlumkGNlefO0o0sMuRrVgFXOAkNAEoaaESOiRmsT7HvQVfnhmBOBCP3HO=w426-h240-k-no",
+      "rating": 4.7,
+      "reviews": 361,
+      "description": "Clínica Dental Vitaldent es una clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 4.7 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "09:00–104:00, 105:00–200:00",
+        "Martes": "09:00–104:00, 105:00–200:00",
+        "Miércoles": "09:00–104:00, 105:00–200:00",
+        "Jueves": "09:00–104:00, 105:00–200:00",
+        "Viernes": "09:00–104:00, 105:00–200:00",
+        "Sábado": "100:00–104:00",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado",
+        "361 reseñas en Google"
+      ],
+      "review_snippets": [
+        {
+          "text": "Son muy profesionales. Muy buen trato al paciente. Todos los servicios que me han hecho han ido genial.",
+          "author": "Albano Corpas Hebenstreit",
+          "rating": 5.0
+        },
+        {
+          "text": "Puntualidad y muy contento con el tratamiento que me hicieron,no tuve ninguna molestia despues",
+          "author": "Juan MG",
+          "rating": 5.0
+        },
+        {
+          "text": "Encantada con el trato y el servicio recibido por parte de todo el equipo. Se agradece poder contar con profesionales. ¡Lo recomiendo 100%!",
+          "author": "Claudia Busquets",
+          "rating": 5.0
+        },
+        {
+          "text": "Encantada con el trato  de profesionales..Laura es muy atenta y profesional 100 por 100 ..y las chicas de recepción y auxiliares  muy amables Gracias por vuestro servicio lo recomendare",
+          "author": "Eva Sorianp",
+          "rating": 5.0
+        },
+        {
+          "text": "Me han ayudado mucho en todo el proceso de una manera muy atenta y amable. Super recomendable.",
+          "author": "Victor Hugo Mamani Candia",
+          "rating": 5.0
+        },
+        {
+          "text": "Me han dejado la boca como nueva! Muchas gracias Vitaldent! Un equipo encantador y muy profesional! Te hace sentirte muy seguro y tranquilo! Nos vemos pronto!",
+          "author": "tito borras juan",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "centro-médico-dental-lópez-ayuso",
+      "title": "Centro Médico Dental López Ayuso",
+      "category": "Dentista",
+      "phone": "933 85 93 46",
+      "address": "Avinguda de Santa Coloma, 24, 2º2ª, 08922 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Centro+M%C3%A9dico+Dental+L%C3%B3pez+Ayuso/@41.4500811,2.1961884,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bc9271d2b383:0x120cbe01e4044cb!8m2!3d41.4494254!4d2.2069198!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQdkZW50aXN0mgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJDY1hCdWRtMTNSUkFC4AEA-gEECAAQHQ!16s%2Fg%2F11b5qt67jz?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEx13xW0K3gt9lWeXXX0vR-sEoO9UE1rXEIz5qy-nkXPrvJ8njsIBZHfsnnkE6x5q4HkUo0RznAs6ZL-UOVKefJ_wUtu8hkaXUnHoMQTlkCUBwnQz--lLVAuU-5C8nzPh58sY3D=w720-h240-k-no",
+      "rating": 5.0,
+      "reviews": 15,
+      "description": "Centro Médico Dental López Ayuso es un dentista ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 5.0 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "09:00–103:00, 105:00–200:00",
+        "Martes": "09:00–103:00, 105:00–200:00",
+        "Miércoles": "09:00–103:00, 105:00–200:00",
+        "Jueves": "09:00–103:00, 105:00–200:00",
+        "Viernes": "09:00–103:00, 105:00–200:00",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado"
+      ],
+      "review_snippets": [
+        {
+          "text": "Mi familia y yo llevamos yendo desde hace años y la verdad es que estamos super contentos. Tanto el trato profesional como el personal... son de 10. Lo recomiendo 100x100.",
+          "author": "Sonia Arquillo",
+          "rating": 5.0
+        },
+        {
+          "text": "Llevo muchos años en esta clínica dental, personas muy serias y excelentes profesionales, yo no cambio ni aunque la hagan gratuita en la SS, me ha salvado varias piezas que en otro sitio me las hubieran extraido.",
+          "author": "Juan Carlos Aznar Seta",
+          "rating": 5.0
+        },
+        {
+          "text": "Muy satisfecho y agradecido. Muy cercano y gran dentista. Lastima no haber sabido antes de la clínica Desde ahora es mi clínica dental Gracias",
+          "author": "Pedro Cerero",
+          "rating": 5.0
+        },
+        {
+          "text": "Toda mi familia se visita con él y se lo recomendaría a cualquier persona.",
+          "author": "Núria Milán",
+          "rating": 5.0
+        },
+        {
+          "text": "Un trato familiar y agradable",
+          "author": "maximo lopez piedra",
+          "rating": 5.0
+        },
+        {
+          "text": "La verdad q genial llevamos años allí y los doctores trabajan estupendamente y son muy cuidadosos...",
+          "author": "Ranma Tamayo",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "clinica-dental-aldana-slp",
+      "title": "Clinica Dental Aldana S.l.p.",
+      "category": "Dentista",
+      "phone": "933 86 06 53",
+      "address": "Pl. de la Vila, 29, 08921 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Clinica+Dental+Aldana+S.l.p./@41.4500811,2.1961884,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bc8deafbaf59:0xaa5739b735b21dfe!8m2!3d41.4512826!4d2.2078077!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hkgEHZGVudGlzdOABAA!16s%2Fg%2F11j2y_qzch?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "cdentalaldanaizquierdo.com",
+      "photo_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=3Lk0naFC5b2OiR9Si0MVIw&cb_client=search.gws-prod.gps&w=408&h=240&yaw=234.43259&pitch=0&thumbfov=100",
+      "rating": 5.0,
+      "reviews": 2,
+      "description": "Clinica Dental Aldana S.l.p. es un dentista ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 5.0 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "Cerrado",
+        "Martes": "Cerrado",
+        "Miércoles": "Cerrado",
+        "Jueves": "Cerrado",
+        "Viernes": "Cerrado",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado"
+      ],
+      "review_snippets": []
+    },
+    {
+      "slug": "marinlozano-dentistas-scp",
+      "title": "Marinlozano Dentistas Scp",
+      "category": "Dentista",
+      "phone": "933 92 56 51",
+      "address": "Rambla del Fondo, 25, 08922 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Marinlozano+Dentistas+Scp/@41.4500811,2.1961884,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bc8490dc0961:0x8d4ade295a189de6!8m2!3d41.4521644!4d2.218508!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQdkZW50aXN0mgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJQTlhRMlVteEJSUkFC4AEA-gEECAAQRA!16s%2Fg%2F12hk8lqjh?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "marinlozanodentistas.com",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGi4CG7cb8VyZxb7zMCavTmKaRAcyUPZh-1McfMfhbpoHXLXuZJlGx2p4Dtrl45TO9J68kjre7LgUbGTlDXnWijVtKrBoVJCsuuac8PS-0YeXjNo9QlpELepgCTyRtuqu6otB6Vyg=w408-h279-k-no",
+      "rating": 4.9,
+      "reviews": 54,
+      "description": "Marinlozano Dentistas Scp es un dentista ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 4.9 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "09:00–104:00, 105:00–109:00",
+        "Martes": "08:00–104:00, 105:00–109:00",
+        "Miércoles": "08:00–104:00, 105:00–109:00",
+        "Jueves": "08:00–104:00, 105:00–109:00",
+        "Viernes": "08:00–104:00",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado",
+        "54 reseñas en Google"
+      ],
+      "review_snippets": [
+        {
+          "text": "Tracte e.s.p.e.c.t.a.c.u.l.a.r desde que entres fins que surts. PROFESIONALS . COM HA DE SER. Hay lugares que no necesitan grandes rótulos ni ofertas llamativas para transmitir confianza. Esta clínica es uno de ellos. Desde fuera parece discreta, casi humilde. Pero al cruzar la puerta se percibe alg",
+          "author": "Alejandro Aris",
+          "rating": 5.0
+        },
+        {
+          "text": "Técnicamente inmejorable, estupendos profesionales, y un trato humano exquisito, me dejaron con la boca abierta. Mil gracias por mejorar mi vida, aquí tenéis un nuevo amigo.",
+          "author": "Pepo Merlin",
+          "rating": 5.0
+        },
+        {
+          "text": "Dentro de poquito hará un año que empecé la ortodoncia con ellos y sinceramente es la mejor decisión que he podido tomar, y el mejor sitio donde hacerlo. Son un equipazo, educados, atentos, super profesionales y todo hiper higiénico! Estoy encantada! 😊…",
+          "author": "eeuvea",
+          "rating": 5.0
+        },
+        {
+          "text": "Estoy muy satisfecho con ellos. Con los múltiples y variados dentistas que hay, decidí ir a este y ha sido todo un ACIERTO! Un trato muy profesional, amable y cercano. Las instalaciones y el local se ven de buen nivel y los precios son muy competitivos. Se lo recomendé a mis familiares y han vuelto ",
+          "author": "JPabaro BR",
+          "rating": 5.0
+        },
+        {
+          "text": "Superó gratamente mis expectativas. La verdad que he salido muy contenta y satisfecha tanto por el servicio como por la atención recibida de los trabajadores. Son unos auténticos profesionales. 100% RECOMENDABLE",
+          "author": "Natalia. T.S",
+          "rating": 5.0
+        },
+        {
+          "text": "Después de una mala experiencia en otro dentista, di con este, y de verdad que de 10. Muy contenta , tanto el doctor Mario como todo el personal son super amables, unos profesionales, muchas gracias, iba con dolor y nerviosa por lo que había pasado y salí súper contenta, ya tengo dentista de confian",
+          "author": "Sheila Garcia",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "clínica-dental-sant-mar-sl",
+      "title": "CLÍNICA DENTAL SANT MAR S.L.",
+      "category": "Clínica dental",
+      "phone": "934 66 10 88",
+      "address": "Carrer de Dalt dels Banús, 56, locales 1 y 2, 08923 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/CL%C3%8DNICA+DENTAL+SANT+MAR+S.L./@41.4500811,2.1961884,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bc9a478c070f:0x84657494d0142f59!8m2!3d41.4463228!4d2.2155993!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQ1kZW50YWxfY2xpbmljmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJ4V1QyTnBNSFJpYTJ4WVUyNWFiR0V4VlhkVmJVcHFXREJvYWxSVlJSQULgAQD6AQUIlAEQOQ!16s%2Fg%2F1tg968x7?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "clinicasantmar.com",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFYBV-lKkNtgwr78_cHmHQct3aTRC2F_9njFeN9Agj-AxZ1kkO2CJlohFNl782i-pCGy6Uh3rEGMAtERSy00wywie-M6qYdTskTxc9DGC7J-ARmPoEZJZGePr1V61EVhUuCFuM7xLBJEWjR=w408-h544-k-no",
+      "rating": 5.0,
+      "reviews": 16,
+      "description": "CLÍNICA DENTAL SANT MAR S.L. es un clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 5.0 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "09:00–103:00, 106:00–201:00",
+        "Martes": "09:00–103:00, 106:00–201:00",
+        "Miércoles": "09:00–103:00, 106:00–201:00",
+        "Jueves": "09:00–103:00, 106:00–201:00",
+        "Viernes": "09:00–103:00, 106:00–201:00",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado"
+      ],
+      "review_snippets": [
+        {
+          "text": "He ido a verles, recomendado por mi hermana, por un dolor intermitente y muy molesto. Fue fantástico, Han tenidn toda la paciencia del mundo. Sin prisas. Varias pruebas de imagen y dos profesionales pendientes de mi. Encontrado, diagnosticado y resuelto. Amabilidad y todas las explicaciones necesari",
+          "author": "Jordi Perez",
+          "rating": 5.0
+        },
+        {
+          "text": "Soy de la India. Tenía un dolor de muelas tan fuerte que fui allí. Me revisó la muela allí mismo. Me trató muy bien.Y el médico y el personal aquí son muy buenos.A todos ellos les agradezco de corazón. 👍👍♥️♥️…",
+          "author": "Kang Guri",
+          "rating": 5.0
+        },
+        {
+          "text": "Excelente atención en Clínica Dental Sant Mar. La cirugía de un tercer molar complicado fue perfecta. Doctor y equipo, fenomenales. Muy recomendable.",
+          "author": "Yaiza Callejas",
+          "rating": 5.0
+        },
+        {
+          "text": "Clínica dental súper recomendada,con diagnósticos reales y sin inflarte el precio por su propio beneficio,iba con mucho miedo después de experiencias desagradables en otras clínicas,y no me dolió para nada la endodoncia,súper recomendada. Trato increíble",
+          "author": "Pol Buenaventura",
+          "rating": 5.0
+        },
+        {
+          "text": "Espectacular. El trato cercano, la paciencia con la que te explican todo el tratamiento y lo pendientes que están de ti después de la intervención. Es difícil sentirte cómodo en la consulta de un dentista. Ellos lo consiguen.",
+          "author": "e castello",
+          "rating": 5.0
+        },
+        {
+          "text": "Trato muy bueno. Excelentes profesionales. Cuidan los detalles y el local tiene muy buenas condiciones.",
+          "author": "Hamza Chaouati",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "clinica-dental-pompeia",
+      "title": "Clinica Dental",
+      "category": "Dentista",
+      "phone": "",
+      "address": "Passatge de la Mare de Déu de Pompeia, 16, 08913 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Clinica+Dental/@41.4500811,2.1961884,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bca233fad32b:0x3565f0f3bc978ac7!8m2!3d41.4377441!4d2.2178637!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQdkZW50aXN0mgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5pTUhKdVZGUm5FQUXgAQD6AQQIFBAT!16s%2Fg%2F11krpdw8k4?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "",
+      "photo_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=7qRTnWeMKke3zt_4j7YPMw&cb_client=search.gws-prod.gps&w=408&h=240&yaw=195.89757&pitch=0&thumbfov=100",
+      "rating": 5.0,
+      "reviews": 1,
+      "description": "Clinica Dental es un dentista ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 5.0 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "Cerrado",
+        "Martes": "Cerrado",
+        "Miércoles": "Cerrado",
+        "Jueves": "Cerrado",
+        "Viernes": "Cerrado",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado"
+      ],
+      "review_snippets": [
+        {
+          "text": "Un trato estupendo. Gente de confianza.",
+          "author": "Marina Del Valle Blanco",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "clínica-dental-belladent-fondo",
+      "title": "Clínica Dental Belladent - Fondo",
+      "category": "Clínica dental",
+      "phone": "935 05 59 65",
+      "address": "Carrer de Mossèn Jacint Verdaguer, 146, 08923 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Belladent+-+Fondo%E5%8D%8E%E4%BA%BA%E7%89%99%E7%A7%91/@41.4377441,2.1998393,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bd8fd2b40f25:0x92984dd2f7ecd83e!8m2!3d41.449416!4d2.2188485!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQ1kZW50YWxfY2xpbmljmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJ0R1JsZHNWbGROV0doTFUycENiRTFJVGxKaFJrNDJZMFZhZW1FeVl4QULgAQD6AQQIABAo!16s%2Fg%2F11x8zns6dy?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "clinicabelladent.es",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHrHhA9zLTv8Un1ysGzXZmF0EMQSMW5VQ7ot9koO-nhdNam09dLjpXlPYq7E4WEJPuhxTplW7mKWBktvnTq3jdpGblqpj2AC52kk1sw41Jh9_HKmO04j3feyQdiSl-shURf2mo7wNKsTwoK=w408-h272-k-no",
+      "rating": 5.0,
+      "reviews": 54,
+      "description": "Clínica Dental Belladent - Fondo es una clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 5.0 estrellas sobre 5 en Google.",
+      "services": [
+        "Atención pediátrica"
+      ],
+      "hours": {
+        "Lunes": "100:00–200:00",
+        "Martes": "100:00–200:00",
+        "Miércoles": "100:00–200:00",
+        "Jueves": "100:00–200:00",
+        "Viernes": "100:00–200:00",
+        "Sábado": "105:30–200:00",
+        "Domingo": "100:00–106:00"
+      },
+      "highlights": [
+        "Altamente valorado",
+        "54 reseñas en Google"
+      ],
+      "review_snippets": [
+        {
+          "text": "Me atendieron con mucha amabilidad desde que llegué. Todo el proceso fue rápido y sin complicaciones.",
+          "author": "El baby",
+          "rating": 5.0
+        },
+        {
+          "text": "Me atendieron con mucha amabilidad desde el primer momento. La doctora me explicó todo el tratamiento paso a paso y me sentí muy tranquilo. Sin duda, un lugar de confianza.",
+          "author": "Mathias Beltran",
+          "rating": 5.0
+        },
+        {
+          "text": "Excelente trato y profesionalidad. Me explicaron todas las opciones antes de empezar el tratamiento y eso me dio mucha confianza",
+          "author": "Aída Gonzalez",
+          "rating": 5.0
+        },
+        {
+          "text": "El ambiente es muy limpio y agradable. Me hicieron una limpieza dental sin molestias y con gran detalle. Salí con una sonrisa nueva.",
+          "author": "Julio Suarez",
+          "rating": 5.0
+        },
+        {
+          "text": "Mi experiencia fue muy positiva. Me colocaron un implante y quedó perfecto, natural y sin molestias. Muy agradecido.",
+          "author": "Gabriel Gonzalez",
+          "rating": 5.0
+        },
+        {
+          "text": "Todo el personal transmite confianza y profesionalidad. Me hicieron un empaste perfecto y ni siquiera sentí dolor. Muy contenta con el resultado.",
+          "author": "keila bolivar",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "novadenti",
+      "title": "Novadenti",
+      "category": "Dentista",
+      "phone": "934 68 37 98",
+      "address": "Carrer de Sicília, 27, 08921 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Novadenti/@41.449416,2.2008241,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bc84fbc51e8b:0x6f076066a0cac603!8m2!3d41.4521344!4d2.2167019!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQdkZW50aXN0mgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJ0a01sWkZXbTFTVkZac1pWaHNRbG96UVhwUmJUVjNVa1YwV1U5WFl4QULgAQD6AQQIABAq!16s%2Fg%2F11cs2w_tmp?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFGBg24-2-FhZYRXoYONpIESdUgJfvK_DpJcIVSJg5CX-9ALrcHkGQX3L-6E91JkqRqd7PfErf-MLX_Y0TqCZoMYjn0ywn8__a3lxUoKVPXlZPJcLHUUiEO48i6GynYJ1F1C88=w408-h544-k-no",
+      "rating": 4.8,
+      "reviews": 68,
+      "description": "Novadenti es un dentista ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 4.8 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "09:30–103:30, 106:00–200:00",
+        "Martes": "09:30–103:30, 106:00–200:00",
+        "Miércoles": "09:30–103:30, 106:00–200:00",
+        "Jueves": "09:30–103:30, 106:00–200:00",
+        "Viernes": "09:30–103:30, 106:00–200:00",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado",
+        "68 reseñas en Google"
+      ],
+      "review_snippets": [
+        {
+          "text": "Excelente clínica dental. Soy paciente desde hace varios años y la experiencia siempre ha sido muy buena. El trato es excepcional, pero sobre todo quiero destacar a Jessica y Mireya. Son unas profesionales increíbles, transmiten muchísima seguridad y confianza.",
+          "author": "Arnau Fernández Sabaté",
+          "rating": 5.0
+        },
+        {
+          "text": "Muy contenta son muy profesionales y tienen un buen trato con sus clientes son muy simpáticas y agradables. Todo lo que me he hecho sin problemas. Empantes implantes. Lo recomiendo yo no cambio. Calidad y buen precio.",
+          "author": "Eva",
+          "rating": 5.0
+        },
+        {
+          "text": "Mi marido y yo hemos estado haciendo varios tratamientos y estamos muy contentos, son muy profesionales, amables, educadas y sobre todo personas con empatía, es como muy familiar, te sientes cómodo y muy bien orientados para tener y conservar salud buco-dental. Son maravillosas. Lo recomiendo al 100",
+          "author": "sofia gil",
+          "rating": 5.0
+        },
+        {
+          "text": "Son excelentes profesionales Mi caso muy complicado. Mire muchas clínicas y ninguna estaba preparada…",
+          "author": "Paqui Merino León",
+          "rating": 5.0
+        },
+        {
+          "text": "Clínica Novadenti totalmente recomendable. Equipo muy profesional y cercano. Mención especial para Mireia, que trabaja con mucho cuidado y lo explica todo muy bien. Da gusto ir al dentista así. ⭐️⭐️⭐️⭐️⭐️",
+          "author": "MIGUEL ANGEL GIL VILLALBA",
+          "rating": 5.0
+        },
+        {
+          "text": "Tengo panico al dentista pero Jessica y Mireia son encantadoras y te dan confianza de que el trabajo bien hecho se puede hacer con una sonrisa. Tambien la administrativa Sandra es super maja. Todo el equipo es muy majo y accesible siempre cariñosas y con buenas palabras. Recomiendo 1000x1000 cinco e",
+          "author": "Carmen Neira Garcia",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "clinica-dental-tasso",
+      "title": "Clinica dental Tasso",
+      "category": "Clínica dental",
+      "phone": "934 68 44 28",
+      "address": "Av. dels Banús, 58, bajos, 08923 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Clinica+dental+Tasso/@41.449416,2.2008241,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bc9b1fbebb73:0xaaebe6b029e6a3c3!8m2!3d41.4459956!4d2.2131773!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQ1kZW50YWxfY2xpbmljmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5vYURSMVlrUjNFQUXgAQD6AQQIABAf!16s%2Fg%2F11ckvpbd3z?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "clinicadentaltasso.es",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHY9FYx-aSp73v__OMX5V0bfzLNDFvoGiaugpnPzsjzS5_ItmkmD2Uctr05SL-HZ1sAFDS9Wajg1QgkXtyyXn6m8XNQhyVDb4UpkUxJ_Mc9OvoNS2cjADs65cXxbbBEHEhrZ1UV=w408-h306-k-no",
+      "rating": 4.7,
+      "reviews": 15,
+      "description": "Clinica dental Tasso es un clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 4.7 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "100:00–103:00, 105:00–200:00",
+        "Martes": "100:00–103:00, 105:00–200:00",
+        "Miércoles": "100:00–103:00, 105:00–200:00",
+        "Jueves": "100:00–103:00, 105:00–200:00",
+        "Viernes": "100:00–104:00",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado"
+      ],
+      "review_snippets": [
+        {
+          "text": "Primera vez que estuve, me quedé sorprendido con el trato tan cercano del Dr. Tasso. Llevé después a mi madre y a mis hijos. Con lo complicado que es encontrar buenos profesionales y de confianza sin duda recomiendo esta clínica.",
+          "author": "Xavi Rigut",
+          "rating": 5.0
+        },
+        {
+          "text": "Llevamos muchos años con ellos, el trato es genial y nunca hemos tenido ningún problema, trabajan a la perfección, espero sigan así por muchos años, son excelentes,siempre fiel a ellos",
+          "author": "Miranda Miranda",
+          "rating": 5.0
+        },
+        {
+          "text": "Excelente trato y grandes profesionales, muy contento con los resultados de todos los tratamientos que me he realizado :)",
+          "author": "Alex H",
+          "rating": 5.0
+        },
+        {
+          "text": "Dr Tasso excelente profesional. Más de 30 años tratando a mi familia y siempre con  muy buenos resultados. Sólo te recomienda un tratamiento si realmente lo necesitas. Todo el equipo de la clínica dental maravillosos.",
+          "author": "Isabel Martin",
+          "rating": 5.0
+        },
+        {
+          "text": "hace cuarenta años con el padre y continuó con el hijo  y muy contenta  muy buen profesional",
+          "author": "Araceli Guerrero",
+          "rating": 5.0
+        },
+        {
+          "text": "Buen trato y muy contento. Sin duda lo aconsejo.",
+          "author": "Danielito",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "movaclinic-clínica-dental",
+      "title": "Movaclinic Clínica Dental",
+      "category": "Clínica dental",
+      "phone": "930 24 10 86",
+      "address": "Carrer de Sant Carles, 72, 08922 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Movaclinic+Cl%C3%ADnica+Dental/@41.449416,2.2008241,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bc918c551e2d:0x29b26d68d248aa31!8m2!3d41.448706!4d2.2093387!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQ1kZW50YWxfY2xpbmljmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJzeE5tSkdUVE5WVjJNeVRqSm9lVTVVYkdwVlZXTjBXVzFzYUUweVl4QULgAQD6AQUIvAEQSQ!16s%2Fg%2F11j8w62jrt?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "movaclinic.es",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHkscdKUGWLAlltmJE6OBzHaczP3t1d-YibDzoXBEISQ7ajch09o_NfTokx5vBKDQs6cTwFWZHPP6dX7CRl6frXAS2WIh_rE6Q4j3yTp45BxSvzPtKSw2aP4uw8B1-Hq7YbIcnD1g=w408-h296-k-no",
+      "rating": 4.7,
+      "reviews": 42,
+      "description": "Movaclinic Clínica Dental es una clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 4.7 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "100:00–102:30, 103:30–200:00",
+        "Martes": "104:00–109:00",
+        "Miércoles": "100:00–102:30, 103:30–200:00",
+        "Jueves": "100:00–102:30, 103:30–200:00",
+        "Viernes": "100:00–102:30, 103:30–200:00",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado"
+      ],
+      "review_snippets": [
+        {
+          "text": "Estoy muy contenta con mi experiencia en Movaclinic. Son muy profesionales y cercanas. Se han adaptado a mí y mis inquietudes en todo momento y la verdad es que tenía muchas dudas de empezar mi tratamiento de ortodoncia por diversas casuísticas pero una vez terminado el proceso y confiar en la docto",
+          "author": "Laia Rojas Garcia",
+          "rating": 5.0
+        },
+        {
+          "text": "Me hecho un tratamiento de invisalign y solo puedo decir que estoy muy contenta, se me ha hecho menos pesado de lo que esperaba, las chicas dsd las auxiliares hasta la dra son un encanto. He flinalizado con un blanqueamiento y ahora ya puedo presumir de sonrisa",
+          "author": "Melina Pons",
+          "rating": 5.0
+        },
+        {
+          "text": "Excelente experiencia Movaclinic. Su enfoque en ortodoncia fue excepcional, explicando cada paso del proceso y asegurándose de que me sintiera cómodo. Los resultados han superado mis expectativas. ¡Totalmente recomendable para quienes buscan una sonrisa perfecta!",
+          "author": "Aleix Diaz",
+          "rating": 5.0
+        },
+        {
+          "text": "Muy contento con el trato recibido por todas las profesionales. Me han hecho el tratamiento de ortodoncia con Invisalign, he quedado encantado con el resultado, y siguen llamándome para revisiones y controlar que todo vaya bien.…",
+          "author": "Oscar Martínez Cobo",
+          "rating": 5.0
+        },
+        {
+          "text": "Fantástico lugar , servicio espectacular   adaptándose a mis horarios que son súper complicados . Tenía panico al  DENTISTA pero  después de conocer Movaclinic y a ver tenido esta experiencia tan buena no voy a parar asta conseguir una boca perfecta y solo con ellos lo podré hacer .recomiendo 100×10",
+          "author": "Nadir Nadixx",
+          "rating": 5.0
+        },
+        {
+          "text": "Nuestra experiencia con esta clínica Dental y en especial con la Doctora Valero ha sido excepcional, al igual que todo su equipo de profesionales, en nuestro caso, gran trabajo de 10 en la ortodoncia de mi hija, instalaciones modernas y todo muy limpio. Solo puedo decir recomendable 100%",
+          "author": "Noelia Gomez Ortiz",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "clínica-dental-drs-matyash",
+      "title": "Clínica Dental Drs. Matyash",
+      "category": "Clínica dental",
+      "phone": "931 25 46 45",
+      "address": "Carrer de la Cultura, 39, 08922 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Drs.+Matyash/@41.448706,2.1913143,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bdd9c1b5c867:0x797da4be0585f39d!8m2!3d41.4471693!4d2.2080935!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQ1kZW50YWxfY2xpbmljmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJxYVdJMllqbFJSUkFC4AEA-gEECDoQIA!16s%2Fg%2F11gxrjg7_j?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "drs-matyash.com",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGkozyN0r2QA9Bz_GhKnRAKaitOOuiGB7AjZvX2eYDlyFdajMeoQnxwTjlI19jCxjf6_48BEhmxC5Nk-7n-nKlLUEkFwKSz6aEKOMhZae2qpoSiDIQN68NZfUbfJd1wXi-BNWx_qw=w408-h544-k-no",
+      "rating": 4.5,
+      "reviews": 34,
+      "description": "Clínica Dental Drs. Matyash es una clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 4.5 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "100:00–200:00",
+        "Martes": "100:00–200:00",
+        "Miércoles": "100:00–200:00",
+        "Jueves": "100:00–200:00",
+        "Viernes": "100:00–200:00",
+        "Sábado": "100:00–105:00",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado"
+      ],
+      "review_snippets": [
+        {
+          "text": "Muy buena experencia trato excepcional por todo el equipo he de decir que me dan bastante miedo los dentistas pero de verdad que lo hacen genial volvere sin duda",
+          "author": "Sandra valdezate",
+          "rating": 5.0
+        },
+        {
+          "text": "Una amiga mía me recomendó la clínica Dental Drs.Matyash. Tenía cita con el dentista Igor. Quitó las coronas de dos dientes, rellenó el canal, restauró el diente e instaló coronas nuevas. Todo se hizo al más alto nivel profesional y sin complicaciones. Ambiente muy agradable y amigable. ¡Estoy muy s",
+          "author": "Ольга Зелена",
+          "rating": 5.0
+        },
+        {
+          "text": "Muy buenas jente, y lo más importante que son muy buenos profesionales, con todas tecnologías modernas,  rápido y buen precio, lo agradezco mucho por aser me,  lo que no podría aser los otros ontologos,  en tres veces, muchas gracias por su7s trabajos q",
+          "author": "Sergio Luba",
+          "rating": 5.0
+        },
+        {
+          "text": "Son muy profesionales. Intentan hacer lo mejor para ti. Tienen toda la tecnología, radiografías  etc. Lo recomiendo   mucho.",
+          "author": "Cristina Desco Magallanes",
+          "rating": 5.0
+        },
+        {
+          "text": "Tengo muy buena experiencia. Tecnología nueva,son muy buenos,muy profesionales. Recomendación na 100%. Gracias",
+          "author": "Nune Aghababyan Prazyan",
+          "rating": 5.0
+        },
+        {
+          "text": "Muchas gracias por todo 🙏🏻…",
+          "author": "Anastasiia Orlovska",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "clínica-dental-sanitas-milenium-santa-coloma-sanitas",
+      "title": "Clínica Dental Sanitas Milenium Santa Coloma - Sanitas",
+      "category": "Clínica dental",
+      "phone": "937 65 60 65",
+      "address": "Rambla de Sant Sebastià, 52, 08922 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Sanitas+Milenium+Santa+Coloma+-+Sanitas/@41.448706,2.1913143,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bd0070feca8f:0x763de91828727e6d!8m2!3d41.4503784!4d2.2124111!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQ1kZW50YWxfY2xpbmljmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU10TWs1SWQxRjNFQUXgAQD6AQQIABAz!16s%2Fg%2F11j4d14qby?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "sanitas.es",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGt-585-QURDOT2opY_SqG9GkvK7bKzCrNfcDECsdIrkRagZYxa5e6aj2Ex6MCr-7EdpUmpgtFhsznVL98okVdin8EIBZ6JghEB9eqDkSAFKGMPmghbql00nhN877UVZtbb87_dbQ=w426-h240-k-no",
+      "rating": 4.5,
+      "reviews": 182,
+      "description": "Clínica Dental Sanitas Milenium Santa Coloma - Sanitas es una clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 4.5 estrellas sobre 5 en Google.",
+      "services": [
+        "Atención pediátrica"
+      ],
+      "hours": {
+        "Lunes": "09:00–201:00",
+        "Martes": "09:00–201:00",
+        "Miércoles": "09:00–201:00",
+        "Jueves": "09:00–201:00",
+        "Viernes": "09:00–201:00",
+        "Sábado": "09:00–104:00",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado",
+        "182 reseñas en Google"
+      ],
+      "review_snippets": [
+        {
+          "text": "La Dra. Santolaria es una gran profesional. Mi experiencia con la ortodoncia ha sido excelente: trato cercano, explicaciones claras y resultados perfectos. Clínica totalmente recomendable.",
+          "author": "Aymane Nacir",
+          "rating": 5.0
+        },
+        {
+          "text": "La clínica es muy buena. tiene buenos profesionales el otro dia fui a una limpieza, me atendió martha hace un trabajo excelente y su trato es muy agradable.",
+          "author": "Angela Guerrero",
+          "rating": 5.0
+        },
+        {
+          "text": "Fui por una urgencia, me atendió Andrea, muy comprensiva en todo momento. Me dieron cita lo antes posible para hacer una carilla, la verdad es que estoy muy muy contenta, la recomiendo al 100%. No tuve que esperar mucho ni el día de la urgencia ni el día de la cita.",
+          "author": "Suleimy Valdez (Sule)",
+          "rating": 5.0
+        },
+        {
+          "text": "La atención que he recibido en esta clínica es excelente. El doctor Yehia es muy amable y un buen profesional junto al resto del equipo. ¡Gracias!",
+          "author": "Renato Espinoza",
+          "rating": 5.0
+        },
+        {
+          "text": "Quiero dar las gracias al.doctor Marc es un profesional de los pies ala cabeza  me ayudo me tranquilizó y hizo de la intervención. De extraccion de muelas del juicio en algo rápido y sencillo muchas gracias por su paciencia y se le nota que tiene amor por su profesión",
+          "author": "Katherine Peñaranda",
+          "rating": 5.0
+        },
+        {
+          "text": "Es mi segunda vez que voy y muy contenta. Fui para (una revisión y una higiene) Los profesionales que trabajan ahí muy amables, profesionales,correctos y simpáticos (sobretodo Melody,Ashley,David el cirujano) muchas gracias a todos,volveré.☺️",
+          "author": "Noe",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "sonría-clínica-dental",
+      "title": "Sonría clínica dental",
+      "category": "Clínica dental",
+      "phone": "669 06 25 92",
+      "address": "Avinguda de Santa Coloma, 27, 08922 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Sonr%C3%ADa+cl%C3%ADnica+dental/@41.448706,2.1913143,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bdde1b414d33:0xf066ba8df8d38385!8m2!3d41.4490145!4d2.2076932!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQZkb2N0b3KaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVTkNkazlZT1ZGM0VBReABAPoBBAgAEBk!16s%2Fg%2F11mvq4qz9y?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "sonriaclinicadental.com",
+      "photo_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=dMinCLfiExifgZe4N-aH7w&cb_client=search.gws-prod.gps&w=86&h=86&yaw=55.303833&pitch=0&thumbfov=100",
+      "rating": 5.0,
+      "reviews": 3,
+      "description": "Sonría clínica dental es un clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 5.0 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "09:00–107:00",
+        "Martes": "09:00–107:00",
+        "Miércoles": "09:00–107:00",
+        "Jueves": "09:00–107:00",
+        "Viernes": "09:00–107:00",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado"
+      ],
+      "review_snippets": [
+        {
+          "text": "Buenas. Excelente atención. Me he colocado una dentadura fija con 4 implantes y el resultado genial Dr. Munilla. Lo recomiendo y deje las prótesis en el olvido.",
+          "author": "Paulino Aranda Burgos",
+          "rating": 5.0
+        },
+        {
+          "text": "Excelente clínica dental. Muy buen equipo. El doctor Febrer es un gran profesional al servicio de la salud. Soy cliente desde hace años y estoy encantado con su trabajo. Los recomiendo totalmente.",
+          "author": "Iván Martín",
+          "rating": 5.0
+        },
+        {
+          "text": "Equipo muy bueno. Clínica seria y de confianza. Totalmente recomendable",
+          "author": "Jordi Garriga Perez",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "clínica-dental-dent-up-mas-marí",
+      "title": "Clínica Dental Dent Up Mas Marí",
+      "category": "Clínica dental",
+      "phone": "933 91 83 02",
+      "address": "Carrer del Mas Marí, 48, 50, Bajo, 08923 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Dent+Up+Mas+Mar%C3%AD/@41.448706,2.1913143,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bc9bcf9ed92f:0x99cf91e1d64e1fcd!8m2!3d41.4457192!4d2.2168347!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hkgENZGVudGFsX2NsaW5pY-ABAA!16s%2Fg%2F1v3hx3lh?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHfZXZWp-fXJ6o55ZPwCGCFbftdP_2emdq_nLhpfRLPpA0htdeiM0is_Cj3R8jCfurp1O_MttcYFWtJiUYbbhhgv5i1AnFppIso_zIlEazs4GHZmdbw3BLXn_JuCZ11ZadfyhjbMA=w408-h459-k-no",
+      "rating": 4.3,
+      "reviews": 9,
+      "description": "Clínica Dental Dent Up Mas Marí es una clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 4.3 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "Cerrado",
+        "Martes": "Cerrado",
+        "Miércoles": "Cerrado",
+        "Jueves": "Cerrado",
+        "Viernes": "Cerrado",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [],
+      "review_snippets": [
+        {
+          "text": "Clínica familiar las mejores limpiezas para prevenir caries precio muy asequible.",
+          "author": "Mª ALEJANDRA SÁNCHEZ CARDONA",
+          "rating": 5.0
+        },
+        {
+          "text": "Super majos muy atentos, trato familiar y precios económicos, mucha posibilidades de horario, no he esperado nunca ni 5 minutos, os doy un 11 sobre 10!!",
+          "author": "Carlos Cerdán Torrecilla",
+          "rating": 5.0
+        },
+        {
+          "text": "MUY AMABLES, SUPER CONTENTA",
+          "author": "Mayra Soto",
+          "rating": 5.0
+        },
+        {
+          "text": "Grandes profesionales.",
+          "author": "Noelia Quero",
+          "rating": 5.0
+        },
+        {
+          "text": "Son unos ladrones, hace unos años me arregle diente con ellos y todo bien y no me cobraron la primera visita, pero fui ayer y por solo mirarme el diente 4min y darme la solución me cobraron 20€",
+          "author": "Harpreet Singh",
+          "rating": 1.0
+        }
+      ]
+    },
+    {
+      "slug": "clinica-dental-santa-coloma-42",
+      "title": "CLINICA DENTAL",
+      "category": "Dentista",
+      "phone": "",
+      "address": "Ctra. de Santa Coloma, 42, 08913 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/CLINICA+DENTAL/@41.448706,2.1913143,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bca49b195c11:0xc1d408088db99b47!8m2!3d41.4345592!4d2.2155787!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hkgEHZGVudGlzdOABAA!16s%2Fg%2F11wh5lqr4c?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "",
+      "photo_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Ah895HCIHRWSF-feQ1m1uw&cb_client=search.gws-prod.gps&w=408&h=240&yaw=36.968754&pitch=0&thumbfov=100",
+      "rating": 0,
+      "reviews": 0,
+      "description": "CLINICA DENTAL es un dentista ubicado en Santa Coloma de Gramenet, Barcelona. .",
+      "services": [],
+      "hours": {
+        "Lunes": "Cerrado",
+        "Martes": "Cerrado",
+        "Miércoles": "Cerrado",
+        "Jueves": "Cerrado",
+        "Viernes": "Cerrado",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [],
+      "review_snippets": []
+    },
+    {
+      "slug": "clínica-medicodentalscp",
+      "title": "Clínica Medicodental,S.C.P",
+      "category": "Clínica dental",
+      "phone": "933 86 00 56",
+      "address": "Carrer de Santa Anna, 15, 08921 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+Medicodental,S.C.P/@41.4345592,2.1975543,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bc8d02b7fb59:0x9c348a61720f386f!8m2!3d41.4525932!4d2.2058707!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hkgENZGVudGFsX2NsaW5pY-ABAA!16s%2Fg%2F1tdt38vs?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "",
+      "photo_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=lRAgwM93kOPOGGJVpRiFiQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=236.6653&pitch=0&thumbfov=100",
+      "rating": 3.0,
+      "reviews": 4,
+      "description": "Clínica Medicodental,S.C.P es una clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 3.0 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "Cerrado",
+        "Martes": "Cerrado",
+        "Miércoles": "Cerrado",
+        "Jueves": "Cerrado",
+        "Viernes": "Cerrado",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [],
+      "review_snippets": [
+        {
+          "text": "No sirve de nada el sistema de citas",
+          "author": "Carlos ML",
+          "rating": 1.0
+        },
+        {
+          "text": "Fatal.",
+          "author": "insomne",
+          "rating": 1.0
+        }
+      ]
+    },
+    {
+      "slug": "clínica-dental-dra-ketty-sacoto-navia",
+      "title": "Clínica dental Dra Ketty Sacoto Navia",
+      "category": "Clínica dental",
+      "phone": "934 68 40 16",
+      "address": "Carrer de les Balears, 61, 08924 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+dental+Dra+Ketty+Sacoto+Navia/@41.4525932,2.1878463,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bd668ec46df7:0xa23fdffc87c8a921!8m2!3d41.4584919!4d2.2074125!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQ1kZW50YWxfY2xpbmljmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJxY1hKMVJGTm5FQUXgAQD6AQUIigEQJg!16s%2Fg%2F11srrztbmz?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "",
+      "photo_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=bNtmUK8KmABMc5irV_fwZQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=237.29932&pitch=0&thumbfov=100",
+      "rating": 5.0,
+      "reviews": 2,
+      "description": "Clínica dental Dra Ketty Sacoto Navia es una clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 5.0 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "Cerrado",
+        "Martes": "Cerrado",
+        "Miércoles": "Cerrado",
+        "Jueves": "Cerrado",
+        "Viernes": "Cerrado",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado"
+      ],
+      "review_snippets": [
+        {
+          "text": "He visitado esta clinica dental por recomendación de mi pareja y la verdad que ha sido todo un acierto. Un trato muy bueno y muy honesto. La Dra. Ketty es una gran profesional.",
+          "author": "Sergio",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "clínica-dental-limadent-sll",
+      "title": "Clínica Dental Limadent S.L.L.",
+      "category": "Dentista",
+      "phone": "933 97 75 61",
+      "address": "Carrer de Granada, 24, 08917 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Limadent+S.L.L./@41.4525932,2.1878463,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bc82986b473f:0xd25e24bccf1d9efd!8m2!3d41.4512145!4d2.2231863!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQdkZW50aXN0mgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU53YTA1WGIxRkJFQUXgAQD6AQQIABA-!16s%2Fg%2F1tf8hvlt?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "",
+      "photo_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=2pnuwlhamATl7t95F5YWbw&cb_client=search.gws-prod.gps&w=408&h=240&yaw=84.5606&pitch=0&thumbfov=100",
+      "rating": 5.0,
+      "reviews": 4,
+      "description": "Clínica Dental Limadent S.L.L. es una dentista ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 5.0 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "100:00–104:00, 106:00–200:00",
+        "Martes": "100:00–104:00, 106:00–200:00",
+        "Miércoles": "100:00–104:00, 106:00–200:00",
+        "Jueves": "100:00–104:00",
+        "Viernes": "100:00–104:00, 106:00–200:00",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado"
+      ],
+      "review_snippets": [
+        {
+          "text": "Mira que he ido a muchos dentistas, pero como este, ninguno!!! Calidad precio inmejorable, trato cercano y amable. Muy profesionales.",
+          "author": "Diana Costinea",
+          "rating": 5.0
+        },
+        {
+          "text": "Trato inmejorable,mucha paciencia,muy profesionales una atención perfecta. Lo recomiendo y yo volveré sin ninguna duda.",
+          "author": "David Alarcon",
+          "rating": 5.0
+        },
+        {
+          "text": "Muy satisfecho con mi tratamiento, muy profesionales y simpátic@s, se agradece 😀…",
+          "author": "Huascar Shinchi Roka",
+          "rating": 5.0
+        },
+        {
+          "text": "Insuperables!!.. muy buena atencion",
+          "author": "Cindy Vigo",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "centro-médico-prat",
+      "title": "Centro Médico Prat",
+      "category": "Clínica dental",
+      "phone": "933 92 00 15",
+      "address": "Carrer de Prat de la Riba, 42, 08921 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Centro+M%C3%A9dico+Prat/@41.4512145,2.2051619,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bc8bf5394b43:0xf3c3648eb1c73325!8m2!3d41.4551804!4d2.2079311!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQ1kZW50YWxfY2xpbmljmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5LTTJSdVYxVm5FQUXgAQD6AQQIABAN!16s%2Fg%2F1hc0yhf1y?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGrFvyem6EJ3ot-9rBx5C1G77dvwFzs_a1XXlyjN_UNJ7s8Ip0fmw2vbAqUXk1XnZ0wcLu5Rx9emUETWcwf1h1ZgmcmE66_MKFMwBq-BpE0Ef_BbnCd7oNW-FcRROHPqjNtQHyzK6pgAJWj=w426-h240-k-no",
+      "rating": 4.7,
+      "reviews": 7,
+      "description": "Centro Médico Prat es un clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 4.7 estrellas sobre 5 en Google.",
+      "services": [
+        "Atención pediátrica",
+        "Odontología estética"
+      ],
+      "hours": {
+        "Lunes": "100:00–102:30, 105:30–200:30",
+        "Martes": "100:00–102:30, 105:30–200:30",
+        "Miércoles": "100:00–102:30, 105:30–200:30",
+        "Jueves": "100:00–102:30, 105:30–200:30",
+        "Viernes": "100:00–102:30, 105:30–109:30",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado"
+      ],
+      "review_snippets": [
+        {
+          "text": "Tanto la dra. Araceli García como el cirujano Dr Real y la ortodoncista Maribel son súper profesionales, garantía para toda la familia",
+          "author": "Pilar Tomás",
+          "rating": 5.0
+        },
+        {
+          "text": "Excelentes profesionales",
+          "author": "maria jesus",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "clinica-dental-dr-chela-sl",
+      "title": "CLINICA DENTAL DR CHELA S.L.",
+      "category": "Clínica dental",
+      "phone": "933 92 66 66",
+      "address": "Carrer de Sicília, 83, 08921 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/CLINICA+DENTAL+DR+CHELA+S.L./@41.45413,2.2007256,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bc83f984491d:0xfbd36be84c34cc76!8m2!3d41.45413!4d2.21875!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQ1kZW50YWxfY2xpbmljmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5pYkV4NlpXRlJFQUXgAQD6AQQIABBI!16s%2Fg%2F11ybpk4lf?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGM0nc5jRZxMrOcWvsTfMCipLk3jrYRXu04RoKOV4IV5VpDNa7KfMvrFDCmBpzy5HpqUambziFrIaRfihUgIRq8xKNtNpUxLUU__-YE7ysbYQvQsz4GmU-8If9f5nPv1XLhIkbrCA=w425-h240-k-no",
+      "rating": 4.3,
+      "reviews": 30,
+      "description": "CLINICA DENTAL DR CHELA S.L. es un clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 4.3 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "09:30–103:30, 106:00–109:30",
+        "Martes": "09:30–103:30, 106:00–109:30",
+        "Miércoles": "09:30–103:30, 106:00–109:30",
+        "Jueves": "09:30–103:30, 106:00–109:30",
+        "Viernes": "09:30–103:30, 106:00–109:30",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [],
+      "review_snippets": [
+        {
+          "text": "Estoy muy contenta con los resultados! Mucha profesionalidad y muy buen trato, lo recomiendo al 100%",
+          "author": "Laura Rodríguez",
+          "rating": 5.0
+        },
+        {
+          "text": "Servicio de excelencia! Buen trato y profesionalidad! Son un equipo de profesionales maravillosos. Los recomiendo totalmente! Mi experiencia con ellos es ya de años y siempre he tendido los mejores resultados!!",
+          "author": "María Elena Martínez Busto",
+          "rating": 5.0
+        },
+        {
+          "text": "Recomendados! El Dr Ferran y su equipo muy atentos y dedicados, llevé a mi suegro y quedó satisfecho con el tratamiento... La clínica muy bonita y organizada, os doy un 10!",
+          "author": "adriana espinoza",
+          "rating": 5.0
+        },
+        {
+          "text": "Todo perfecto el dr Ferrán y su equipo son unos profesionales increíbles sin duda ya tengo un dentista de confianza",
+          "author": "Fernando",
+          "rating": 5.0
+        },
+        {
+          "text": "Dr. Chela, magnifico profesional con un gran equipo, amabilidad y profesionalidad, me han colocado cuatro implantes perfectos. Lo recomiendo sin duda alguna.",
+          "author": "PERE LIRIA GARCÍA",
+          "rating": 5.0
+        },
+        {
+          "text": "Grandes profesionales, Dr. Chela hace un buen trabajo. Se adapta a las necesidades del  cliente y te da soluciones. Recomendable 100%",
+          "author": "Ana Espinosa",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "instituto-maxilodental-del-vallès",
+      "title": "Instituto Maxilodental del Vallès",
+      "category": "Clínica dental",
+      "phone": "931 27 98 04",
+      "address": "Carrer de Bernat Metge, 24, 08100 Mollet del Vallès, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Instituto+Maxilodental+del+Vall%C3%A8s/@41.538611,2.1914606,15z/data=!4m9!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m5!1s0x12a4bf276d6afb1f:0xddef04e10f3263b7!8m2!3d41.5386113!4d2.2094854!16s%2Fg%2F11bv1ns0m7?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "imaxilodental.com",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFfAWrWiXQqRYxsP7j1BqNAW0aLPmi3vHx7krKSR5wn0vxUvRaRqb1xO0oaZpXTTtzzfDeqcoVZ-wBgBGtE3GLD7UYbArHoZFucBUlTumYUPR5GCwKbfTpqsTG0YWFuEEh8MHvl=w408-h272-k-no",
+      "rating": 4.9,
+      "reviews": 293,
+      "description": "Instituto Maxilodental del Vallès es un clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 4.9 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "09:00–200:00",
+        "Martes": "09:00–200:00",
+        "Miércoles": "09:00–200:00",
+        "Jueves": "09:00–200:00",
+        "Viernes": "09:00–200:00",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado",
+        "293 reseñas en Google"
+      ],
+      "review_snippets": [
+        {
+          "text": "Un 10 desde la entrada, hasta la salida. Las chicas de recepción son súper resolutivas. El equipo médico muy profesional y competente. Nos visitamos toda la familia y estamos encantados todos, hasta los más pequeños. Tengo un peque de 5 años y va al dentista encantado! ¡Muchas gracias, por todo Equi",
+          "author": "Sissy Veselinova",
+          "rating": 5.0
+        },
+        {
+          "text": "Han tratado a mi madre de un problema en la boca. Estoy encantada con el trato al paciente, en todo momento fue muy bueno y se lo están solucionando. Todo mi agradecimiento a la doctora de máxilo.  Es un encanto. Un diez.",
+          "author": "Carmen Roman Escovedo",
+          "rating": 5.0
+        },
+        {
+          "text": "Reconozco que al principio entré con miedo por el miedo al dentista lo típico!! Pero he salido super contenta y sin daño ninguno al hacerme primeramente hoy la higiene dental!! Semana que viene más!",
+          "author": "Maria Ch",
+          "rating": 5.0
+        },
+        {
+          "text": "Vamos toda la familia. Muy contentos con el trato, muy profesionales y cercanos, desde la recepción hasta el equipo técnico. Buenos resultados a nivel de ortodoncia.",
+          "author": "Maria Fraile",
+          "rating": 5.0
+        },
+        {
+          "text": "PERFECTO, TODO SUPER BIEN Y EL TRATO DE 10!",
+          "author": "Salma Azoulay",
+          "rating": 5.0
+        },
+        {
+          "text": "Muy contenta con ellas! Tienen una paciencia infinita con los niños 🥰🥰…",
+          "author": "Andrea Ferreirós",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "centro-médico-catalunya",
+      "title": "Centro Médico Catalunya",
+      "category": "Clínica dental",
+      "phone": "933 86 40 00",
+      "address": "Av. de Francesc Macià, 9, 08921 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Centro+M%C3%A9dico+Catalunya/@41.451394,2.1882366,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bc8d74dad3e5:0x297defe9c097337b!8m2!3d41.451394!4d2.206261!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQ5tZWRpY2FsX2NlbnRlcpoBJENoZERTVWhOTUc5blMwVkpRMEZuVFVSSkxXVlVUakpuUlJBQuABAPoBBAgAEDk!16s%2Fg%2F12qgyr5g8?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "centromedicocatalunya.com",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH3_39x3a4uBegKNyRfY6XgiVQaAM-IeJcWNTq0cl1RE7vPaYdfwd1eKAFw2bT48OeatdOddKhLt6fAcFCDWdfsPsu8GcRalR6NI-z2j-Ijh89wVJx2m0oS5LEbWMdJfL9ZOH90oQ=w408-h544-k-no",
+      "rating": 3.8,
+      "reviews": 323,
+      "description": "Centro Médico Catalunya es un clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 3.8 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "07:00–201:00",
+        "Martes": "07:00–201:00",
+        "Miércoles": "07:00–201:00",
+        "Jueves": "07:00–201:00",
+        "Viernes": "07:00–201:00",
+        "Sábado": "09:00–104:00",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "323 reseñas en Google"
+      ],
+      "review_snippets": [
+        {
+          "text": "Normalmente no suelo escribir reseñas, pero en esta ocasión considero que es justo hacerlo. Quiero agradecer al equipo del Centro Médico Catalunya por su profesionalidad y excelente atención. En especial, destaco la labor de Sandra, de recepción, quien demostró una gran amabilidad, empatía y disposi",
+          "author": "jessica gomez",
+          "rating": 5.0
+        },
+        {
+          "text": "Primera vez que voy al centro para una consulta odontológica y fue Excelente la atención y dedicación de la recepcionista Lalia ( creo que es así que me dijo el nombre ). Muy amable y servicial.",
+          "author": "Jean Bander",
+          "rating": 5.0
+        },
+        {
+          "text": "Centro médico con muchas especialidades,  un trato cordial y amable. Tuve un problema en otro centro médico y vine aquí por tener una segunda opinion. El trato fue exquisito tanto de los profesionales médicos como del personal del centro. Se ha convertido en mi centro médico de confianza.",
+          "author": "T.A.",
+          "rating": 5.0
+        },
+        {
+          "text": "Habitual del dentista Dr.Lloro, él y equipo que le acompañan siempre me ofrecen una atención próxima y acojedora, se nota por el trato que ofrecen que les gusta su trabajo. Eso o que les caigo bien, pese nunca toca cervecita tras la visita!",
+          "author": "Josemi",
+          "rating": 5.0
+        },
+        {
+          "text": "Estuve todo mi embarazo y post parto con Rebeca en rehabilitación y preparación de suelo pélvico y ha sido una experiencia inmejorable. A 5 meses post cesárea he recuperado la musculatura perfectamente gracias a todos sus consejos y ayuda. Sin duda no dudéis en acudir a ella! Gracias por todo Rebeca",
+          "author": "Nayara Muñoz Parada",
+          "rating": 5.0
+        },
+        {
+          "text": "He visitado el centro en varias ocasiones y para diferentes especialidades (dermatología, ginecología, traumatología…) y siempre he salido muy contenta. Desde las recepcionistas que siempre atienden con buena actitud, amabilidad y ganas de ayudar en lo que necesites, hasta los mismos doctores que se",
+          "author": "Carla Vidal",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "dental-bless",
+      "title": "Dental Bless",
+      "category": "Dentista",
+      "phone": "640 55 94 85",
+      "address": "Pl. de Trafalgar, 8, 08913 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Dental+Bless/@41.451394,2.1882366,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bda9b427293f:0xbb2edf9c3b01b757!8m2!3d41.4373913!4d2.218293!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQdkZW50aXN0mgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJ4Q1VWSXlPVzFOYlRsMFlqQTVRazFZWXpWTmFrWTBUVU14TVZWWVl4QULgAQD6AQQIABBJ!16s%2Fg%2F11h6m_cc07?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEf6h4othbRD4O1YbNs_lcdT6Lwm-um1WpAzEapU8wS7eF5sCb691uPGBIvT4sB_cnXfVda6kwEj9cNwgSEEqurSuLADHS7WZgB84eVFPVQmTDerCMWb6K3BhgOQqSkph9KKRQ=w408-h544-k-no",
+      "rating": 4.1,
+      "reviews": 14,
+      "description": "Dental Bless es un dentista ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 4.1 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "09:30–104:00, 106:00–200:00",
+        "Martes": "09:30–104:00, 106:00–200:00",
+        "Miércoles": "09:30–104:00, 106:00–200:00",
+        "Jueves": "09:30–104:00, 106:00–200:00",
+        "Viernes": "09:30–104:00, 106:00–200:00",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [],
+      "review_snippets": [
+        {
+          "text": "Me gustó mucho la atención del odontólogo , fue muy amable y profesional. Me explico todo claramente y me hizo sentir cómoda Gracias al Dr.Jesus EXCELENTE ATENCIÓN.",
+          "author": "Fatima del carmen Arias flores",
+          "rating": 5.0
+        },
+        {
+          "text": "La mejor clínica dental de badalona con diferencia ,la atención buenísima , primero fue mi hija para el aparato dental , la ortodoncista fue súper atenta y  espectacular explicado y hablando con ella para no asustarla ,el dentista fue súper amable con mi otra hija que tenía una muela picada y muy pa",
+          "author": "Paola Molina Araya",
+          "rating": 5.0
+        },
+        {
+          "text": "Muy bueno, y muy cómodo, barato y bonito, lo recomiendo muchísimo 🥰…",
+          "author": "Rebeca Solis",
+          "rating": 5.0
+        },
+        {
+          "text": "Me gusta mucho el trato, el personal es muy amable ☺️ la atención es buena y solucionan los problemas, muchas gracias por la experiencia.",
+          "author": "Jhoselyn Callirgos Vilela",
+          "rating": 5.0
+        },
+        {
+          "text": "Muchas gracias al Dr. Alex por su profesionalidad y atención, el mejor dentista de Badalona de lejos.... muchas gracias¡¡¡¡",
+          "author": "PATRICIA LUNA",
+          "rating": 5.0
+        },
+        {
+          "text": "Buenos doctores y un trato muy cercano, tengo que valorarlo positivamente porque supieron entender mi situación y se adaptaron a ella.",
+          "author": "Mateo Alessandro",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "clínica-dental-dent-up-baleares",
+      "title": "Clínica Dental Dent Up Baleares",
+      "category": "Clínica dental",
+      "phone": "934 68 27 56",
+      "address": "Carrer de les Balears, 14, 16, Bajo, 08921 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Dent+Up+Baleares/@41.4373913,2.2002686,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bd5fdf283525:0x5b1b35e0abd7c0a6!8m2!3d41.4565775!4d2.20916!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQ1kZW50YWxfY2xpbmljmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5UVVJ2TkdWSFV6Wm5SUkFC4AEA-gEECFEQLw!16s%2Fg%2F11fjzkcy_j?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "",
+      "photo_url": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGkwaJzdLP78Hdl6CulmAOsb2McLq57QFqPW22iIjwc1tEF2eW9CbOBbzcjTwm_dDKsGMEovO0ERIL6cWAq7ypwKnnarwWCM19fa8KzlqAnsh0VXjHsvqHtKqCF9wKPZe1Bjqad=w408-h544-k-no",
+      "rating": 3.8,
+      "reviews": 17,
+      "description": "Clínica Dental Dent Up Baleares es una clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 3.8 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "09:00–103:00, 106:00–200:00",
+        "Martes": "09:00–103:00, 106:00–200:00",
+        "Miércoles": "09:00–103:00, 106:00–200:00",
+        "Jueves": "09:00–103:00, 106:00–200:00",
+        "Viernes": "09:00–103:00, 106:00–200:00",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [],
+      "review_snippets": [
+        {
+          "text": "Una clinica familiar muy buena, con precios estupendos asequibles para la salud oral. Allí hice las prácticas y me enseñaron muy bien. Totalmente de fiar.",
+          "author": "Mª ALEJANDRA SÁNCHEZ CARDONA",
+          "rating": 5.0
+        },
+        {
+          "text": "Es la primera vez que doy un abrazo a mi dentista después de una limpieza bucal. Excelente trabajo, en concreto del Dr. Burguet.",
+          "author": "Santi Rocandio",
+          "rating": 5.0
+        },
+        {
+          "text": "Muy buena clinica dental, una de las mejores, llevo varios años y todo lo que llevo hecho muy buen servicio, sobre todo si vais haceros algo, que lo haga el chico que se llama Gabriel un 10 por 10 de persona y trabaja super bien, se nota su profesionalidad.",
+          "author": "Daniel Delor",
+          "rating": 5.0
+        },
+        {
+          "text": "Hace años que voy y seguiré. Me estoy haciendo tratamiento de ortodoncia y estoy muy contenta.",
+          "author": "Laura Pratta",
+          "rating": 5.0
+        },
+        {
+          "text": "Buen servicio y no hay q esperar mucho, ya q t dan cita",
+          "author": "Ramon Borja Gomez",
+          "rating": 5.0
+        },
+        {
+          "text": "Muy buena experiencia, personal muy amable y profesional. Gracias :)",
+          "author": "Judit Roes",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "clínica-dental-luis-pueyo",
+      "title": "Clínica Dental Luis Pueyo",
+      "category": "Clínica dental",
+      "phone": "933 92 01 66",
+      "address": "Carrer de Beethoven, 19, 08921 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Cl%C3%ADnica+Dental+Luis+Pueyo/@41.4565775,2.1911356,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bc8455e74f65:0xd3d54cce84ae684e!8m2!3d41.4525543!4d2.216671!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQ1kZW50YWxfY2xpbmljmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJsT0dZdGF6QlJSUkFC4AEA-gEECAAQDg!16s%2Fg%2F1hc28_0bj?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "",
+      "photo_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=BYlecRAa5b1cFwYA-183uA&cb_client=search.gws-prod.gps&w=408&h=240&yaw=326.20068&pitch=0&thumbfov=100",
+      "rating": 5.0,
+      "reviews": 2,
+      "description": "Clínica Dental Luis Pueyo es una clínica dental ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 5.0 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "106:30–200:30",
+        "Martes": "100:00–103:00",
+        "Miércoles": "106:30–200:30",
+        "Jueves": "100:00–103:00",
+        "Viernes": "106:30–200:30",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado"
+      ],
+      "review_snippets": [
+        {
+          "text": "Súper atento y un gran professional con tantos años de experiència, Siempre me ha resuelto los problemas.",
+          "author": "Esther Molina",
+          "rating": 5.0
+        },
+        {
+          "text": "Todo perfecto.",
+          "author": "Carlos",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "atase",
+      "title": "Atase",
+      "category": "Dentista",
+      "phone": "933 85 35 10",
+      "address": "Carrer de Sant Joaquim, 24, 08921 Santa Coloma de Gramenet, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Atase/@41.4565775,2.1911356,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bc8d5bd6f653:0x543a9d0255134caf!8m2!3d41.4505421!4d2.2047874!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hkgEHZGVudGlzdOABAA!16s%2Fg%2F1q5bmr_91?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "",
+      "photo_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=vSlK7FECju1Gz0yafhvelw&cb_client=search.gws-prod.gps&w=408&h=240&yaw=203.81729&pitch=0&thumbfov=100",
+      "rating": 5.0,
+      "reviews": 2,
+      "description": "Atase es un dentista ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 5.0 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "Cerrado",
+        "Martes": "Cerrado",
+        "Miércoles": "Cerrado",
+        "Jueves": "Cerrado",
+        "Viernes": "Cerrado",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [
+        "Altamente valorado"
+      ],
+      "review_snippets": [
+        {
+          "text": "El pulpo muy rico y unos aperitivos que nos pusieron de pisto muy ricosProbamos berberechos, zamburiñas, chipirones, pulpo y el entrecot",
+          "author": "Erik Knie",
+          "rating": 5.0
+        },
+        {
+          "text": "Estupenda comida: muy buenos pescados y carnes, marisco de muy buena calidadArrozes mariscos pescado y carne de muy buena calidad aprobado en bodega",
+          "author": "Hortensia Klee",
+          "rating": 5.0
+        }
+      ]
+    },
+    {
+      "slug": "eduardo-barrueto",
+      "title": "Eduardo Barrueto",
+      "category": "Dentista",
+      "phone": "930 01 07 04",
+      "address": "Ctra. de Santa Coloma, 42, 08913 Badalona, Barcelona",
+      "maps_url": "https://www.google.com/maps/place/Eduardo+Barrueto/@41.4565775,2.1911356,15z/data=!4m10!1m2!2m1!1sdentista+en+Santa+Coloma+de+Gramenet+Barcelona!3m6!1s0x12a4bdcf8a3274b5:0x37ca55f955ec6b1d!8m2!3d41.4345442!4d2.2156091!15sCi5kZW50aXN0YSBlbiBTYW50YSBDb2xvbWEgZGUgR3JhbWVuZXQgQmFyY2Vsb25hWjAiLmRlbnRpc3RhIGVuIHNhbnRhIGNvbG9tYSBkZSBncmFtZW5ldCBiYXJjZWxvbmGSAQdkZW50aXN0mgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5vZFRZeVlqUlJSUkFC4AEA-gEECAAQRw!16s%2Fg%2F11qr1mv90r?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D",
+      "web": "",
+      "photo_url": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Ah895HCIHRWSF-feQ1m1uw&cb_client=search.gws-prod.gps&w=408&h=240&yaw=45.48093&pitch=0&thumbfov=100",
+      "rating": 4.2,
+      "reviews": 5,
+      "description": "Eduardo Barrueto es un dentista ubicado en Santa Coloma de Gramenet, Barcelona. Valorado con 4.2 estrellas sobre 5 en Google.",
+      "services": [],
+      "hours": {
+        "Lunes": "Cerrado",
+        "Martes": "Cerrado",
+        "Miércoles": "Cerrado",
+        "Jueves": "Cerrado",
+        "Viernes": "Cerrado",
+        "Sábado": "Cerrado",
+        "Domingo": "Cerrado"
+      },
+      "highlights": [],
+      "review_snippets": [
+        {
+          "text": "Llevo casi 30 años con el De Eduardo y me parece muy buen profesional, y los precios son razonables a comparación con otros dentistas.",
+          "author": "teresa Alcover",
+          "rating": 5.0
+        },
+        {
+          "text": "Lleva años como mi dentista y de mi familia y siempre una buena experiencia y profesionalidad.",
+          "author": "Sergi León",
+          "rating": 5.0
+        },
+        {
+          "text": "Muy buena atención siempre muy puntuales y agradables muy profesionales",
+          "author": "Luisa Cuenca Valverde",
+          "rating": 5.0
+        },
+        {
+          "text": "El mejor profesional en su campo un 10",
+          "author": "Mamen Fuentes",
+          "rating": 5.0
+        },
+        {
+          "text": "Muy poco profesional! Malos materiales y muy poca responsabilidad en su faena. He tenido que ir hasta 4 veces para un empaste de muela. Hacen el trabajo sin cuidado, porque caerse tantas veces no es nada normal. Desde el primer día me dijeron que había que hacer estrías en la muela para que no se ca",
+          "author": "Alberto Peña García",
+          "rating": 1.0
+        }
+      ]
+    }
+  ]
+}

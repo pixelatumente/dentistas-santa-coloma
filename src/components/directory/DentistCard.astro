@@ -1,0 +1,114 @@
+---
+export interface Props {
+  title: string;
+  category?: string;
+  phone?: string;
+  address?: string;
+  rating?: number;
+  reviews?: number;
+  description?: string;
+  services?: string[];
+  slug: string;
+  maps_url?: string;
+  photo_url?: string;
+}
+
+const {
+  title,
+  category,
+  phone,
+  address,
+  rating = 0,
+  reviews = 0,
+  description = '',
+  services = [],
+  slug,
+  maps_url,
+  photo_url,
+} = Astro.props;
+
+const phoneClean = phone ? phone.replace(/\s/g, '') : '';
+const whatsappUrl = phoneClean ? `https://wa.me/34${phoneClean}` : '#';
+const truncatedDesc = description.length > 120 ? description.substring(0, 117) + '...' : description;
+const topServices = services.slice(0, 3);
+const fullStars = Math.floor(rating);
+const hasHalf = rating - fullStars >= 0.3;
+---
+
+<a
+  href={`/${slug}/`}
+  class="group flex flex-col rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg dark:border-neutral-800 dark:bg-neutral-900"
+>
+  <!-- Header: Icon + Title + Category -->
+  <div class="mb-3 flex items-start gap-3">
+    <div class="flex size-12 shrink-0 items-center justify-center rounded-xl bg-cyan-50 text-2xl dark:bg-cyan-900/30">
+      🦷
+    </div>
+    <div class="min-w-0 flex-1">
+      <h3 class="truncate text-base font-bold text-neutral-900 dark:text-white">{title}</h3>
+      {category && (
+        <span class="text-xs font-medium text-cyan-600 dark:text-cyan-400">{category}</span>
+      )}
+    </div>
+  </div>
+
+  <!-- Address -->
+  {address && (
+    <p class="mb-3 line-clamp-1 text-sm text-neutral-500 dark:text-neutral-400">{address}</p>
+  )}
+
+  <!-- Rating -->
+  <div class="mb-3 flex items-center gap-2">
+    <div class="flex gap-0.5">
+      {[1, 2, 3, 4, 5].map(i => (
+        <span class={`text-sm ${i <= Math.round(rating) ? 'text-amber-400' : 'text-neutral-300 dark:text-neutral-600'}`}>★</span>
+      ))}
+    </div>
+    {rating > 0 && (
+      <>
+        <span class="text-sm font-bold text-neutral-900 dark:text-white">{rating}</span>
+        <span class="text-xs text-neutral-400">·</span>
+        <span class="text-xs text-neutral-400">{reviews} {reviews === 1 ? 'reseña' : 'reseñas'}</span>
+      </>
+    )}
+  </div>
+
+  <!-- Description -->
+  {truncatedDesc && (
+    <p class="mb-4 line-clamp-2 text-sm leading-relaxed text-neutral-500 dark:text-neutral-400">{truncatedDesc}</p>
+  )}
+
+  <!-- Service Tags -->
+  {topServices.length > 0 && (
+    <div class="mb-4 flex flex-wrap gap-2">
+      {topServices.map(s => (
+        <span class="rounded-full bg-cyan-50 px-3 py-1 text-xs font-medium text-cyan-700 dark:bg-cyan-900/30 dark:text-cyan-300">
+          🦷 {s}
+        </span>
+      ))}
+    </div>
+  )}
+
+  <!-- Spacer -->
+  <div class="mt-auto"></div>
+
+  <!-- Action Buttons -->
+  <div class="flex gap-2">
+    <a
+      href={`tel:${phoneClean}`}
+      class="flex flex-1 items-center justify-center gap-1.5 rounded-xl bg-cyan-500 px-3 py-2.5 text-sm font-semibold text-white no-underline transition-all duration-200 hover:bg-cyan-600"
+      onclick="event.stopPropagation()"
+    >
+      📞 Llamar
+    </a>
+    <a
+      href={whatsappUrl}
+      target="_blank"
+      rel="noopener"
+      class="flex flex-1 items-center justify-center gap-1.5 rounded-xl bg-emerald-500 px-3 py-2.5 text-sm font-semibold text-white no-underline transition-all duration-200 hover:bg-emerald-600"
+      onclick="event.stopPropagation()"
+    >
+      💬 WhatsApp
+    </a>
+  </div>
+</a>

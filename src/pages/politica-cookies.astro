@@ -1,0 +1,39 @@
+---
+import Layout from '../layouts/Layout.astro'
+
+const SEO = {
+  title: 'Política de Cookies — Dentistas Santa Coloma',
+  description: 'Política de cookies del directorio de dentistas en Santa Coloma de Gramenet, Barcelona.'
+}
+---
+
+<Layout title={SEO.title} description={SEO.description}>
+  <section class="bg-neutral-50 py-16 dark:bg-neutral-900">
+    <div class="mx-auto max-w-3xl px-6">
+      <h1 class="mb-8 text-3xl font-bold text-neutral-900 dark:text-white">Política de Cookies</h1>
+
+      <h2 class="mb-2 mt-7 text-lg font-semibold text-neutral-900 dark:text-white">¿Qué son las cookies?</h2>
+      <p class="mb-4 text-sm leading-relaxed text-neutral-600 dark:text-neutral-400">
+        Las cookies son pequeños archivos de texto que se almacenan en tu navegador cuando visitas un sitio web.
+      </p>
+
+      <h2 class="mb-2 mt-7 text-lg font-semibold text-neutral-900 dark:text-white">Cookies que utilizamos</h2>
+      <p class="mb-4 text-sm leading-relaxed text-neutral-600 dark:text-neutral-400">
+        Este sitio web utiliza exclusivamente cookies de Google AdSense para mostrar anuncios basados en intereses. Google AdSense utiliza cookies de terceros (DoubleClick) para personalizar los anuncios.
+      </p>
+      <p class="mb-4 text-sm leading-relaxed text-neutral-600 dark:text-neutral-400">
+        No utilizamos cookies de análisis, redes sociales, ni cookies propias de ningún tipo.
+      </p>
+
+      <h2 class="mb-2 mt-7 text-lg font-semibold text-neutral-900 dark:text-white">Gestión de cookies</h2>
+      <p class="mb-4 text-sm leading-relaxed text-neutral-600 dark:text-neutral-400">
+        Puedes gestionar o desactivar las cookies desde la configuración de tu navegador. Ten en cuenta que al desactivarlas, los anuncios seguirán apareciendo pero podrían no estar personalizados.
+      </p>
+
+      <h2 class="mb-2 mt-7 text-lg font-semibold text-neutral-900 dark:text-white">Más información</h2>
+      <p class="mb-4 text-sm leading-relaxed text-neutral-600 dark:text-neutral-400">
+        Para más información sobre cómo Google utiliza las cookies, visita <a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener" class="text-cyan-600 underline hover:text-cyan-700 dark:text-cyan-400">Política de cookies de Google</a>.
+      </p>
+    </div>
+  </section>
+</Layout>

@@ -1,29 +1,176 @@
 ---
-// Components
-// - Layout
+// Components Foxi
 import Layout from '../layouts/Layout.astro'
-// - UI
-import Hero from '../components/blocks/hero/HomeCTA.astro'
-import Features from '../components/blocks/features/FeatureCards.astro'
-import Testimonial from '../components/blocks/testimonials/BasicDark.astro'
-import HighlightBlocks from '../components/blocks/highlights/HightlightRows.astro'
-import CTA from '../components/blocks/CTA/BasicDark.astro'
+import Section from '../components/ui/Section.astro'
+import Row from '../components/ui/Row.astro'
+import Col from '../components/ui/Col.astro'
+// Components del directorio
+import SearchBar from '../components/directory/SearchBar.astro'
+import DentistCard from '../components/directory/DentistCard.astro'
+// Datos
+import data from '../data/dentistas.json'
 
-// Content
-// - Testimonial background
-import testimonialBackground from '../assets/testimonial-bg-01.webp'
-// - SEO
+const dentistas = data.dentistas
+const totalDentistas = dentistas.length
+
+// Todas las especialidades únicas
+const allServices = [...new Set(dentistas.flatMap(d => d.services || []))].sort()
+
+// Dentistas ordenados por rating descendente
+const sortedDentistas = [...dentistas].sort((a, b) => (b.rating || 0) - (a.rating || 0))
+
+// Mejores valorados: rating >= 4.5 y >= 10 reseñas
+const bestRated = sortedDentistas.filter(d => (d.rating || 0) >= 4.5 && (d.reviews || 0) >= 10)
+const valorados = dentistas.filter(d => (d.reviews || 0) > 0).length
+
 const SEO = {
-	title: 'Foxi | Your Productivity Toolkit',
-	description:
-		'Foxi is a powerful productivity toolkit designed to enhance your workflow and boost your productivity. With features like analytics, security, and integrations, Foxi is the perfect solution for your business.'
+  title: 'Dentistas Santa Coloma — Encuentra tu dentista de confianza',
+  description: 'Directorio de los mejores dentistas y clínicas dentales en Santa Coloma de Gramenet. Compara valoraciones, horarios y servicios. ¡Encuentra tu dentista ideal hoy!'
 }
 ---
 
 <Layout title={SEO.title} description={SEO.description}>
-	<Hero />
-	<Features />
-	<Testimonial bg={testimonialBackground} bgPosition="right" />
-	<HighlightBlocks />
-	<CTA />
+  <!-- HERO -->
+  <Section padding="top" classes="!bg-gradient-to-br !from-slate-900 !via-cyan-900 !to-cyan-700 min-h-[70vh] flex items-center">
+    <div class="mx-auto w-full max-w-4xl px-4 text-center">
+        <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/8 px-4 py-1.5 text-xs font-medium text-white/75 backdrop-blur-md">
+          🦷 Directorio dental de Santa Coloma
+        </div>
+        <h1 class="mb-4 text-4xl font-extrabold leading-tight tracking-tight text-white md:text-5xl lg:text-5xl">
+          Encuentra tu dentista de <span class="text-cyan-300">confianza</span> en Santa Coloma
+        </h1>
+        <p class="mx-auto mb-8 max-w-2xl text-lg text-white/70">
+          Compara los mejores dentistas y clínicas dentales de Santa Coloma de Gramenet. 
+          Valoraciones reales, horarios, servicios y contacto directo.
+        </p>
+        <SearchBar />
+        <!-- Stats -->
+        <div class="mt-10 flex flex-wrap justify-center gap-8">
+          <div class="text-center">
+            <div class="text-2xl font-bold text-white">{totalDentistas}</div>
+            <div class="text-xs text-white/50">Dentistas</div>
+          </div>
+          <div class="text-center">
+            <div class="text-2xl font-bold text-white">{allServices.length}</div>
+            <div class="text-xs text-white/50">Especialidades</div>
+          </div>
+          <div class="text-center">
+            <div class="text-2xl font-bold text-white">{valorados}</div>
+            <div class="text-xs text-white/50">Valorados</div>
+          </div>
+        </div>
+      </div>
+  </Section>
+
+  <!-- TODOS LOS DENTISTAS -->
+  <Section classes="bg-neutral-50 dark:bg-neutral-900">
+    <Row>
+      <Col span="12">
+        <div class="mb-10 text-center">
+          <h2 class="mb-2 text-3xl font-bold text-neutral-900 dark:text-white">Todos los dentistas</h2>
+          <p class="text-neutral-500 dark:text-neutral-400">
+            {totalDentistas} dentistas y clínicas dentales en Santa Coloma — ordenados por valoración
+          </p>
+        </div>
+        <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          {sortedDentistas.map(d => (
+            <DentistCard
+              title={d.title}
+              category={d.category}
+              phone={d.phone}
+              address={d.address}
+              rating={d.rating}
+              reviews={d.reviews}
+              description={d.description}
+              services={d.services}
+              slug={d.slug}
+              maps_url={d.maps_url}
+              photo_url={d.photo_url}
+            />
+          ))}
+        </div>
+      </Col>
+    </Row>
+  </Section>
+
+  <!-- LOS MEJORES VALORADOS -->
+  {bestRated.length > 0 && (
+    <Section padding="top" classes="bg-white dark:bg-neutral-950">
+      <Row>
+        <Col span="12">
+          <div class="mb-10 text-center">
+            <div class="mb-4 inline-flex items-center gap-2 rounded-full bg-amber-50 px-4 py-1.5 text-xs font-medium text-amber-700 dark:bg-amber-900/30 dark:text-amber-300">
+              ⭐ Los mejores
+            </div>
+            <h2 class="mb-2 text-3xl font-bold text-neutral-900 dark:text-white">Los mejor valorados</h2>
+            <p class="text-neutral-500 dark:text-neutral-400">
+              {bestRated.length} dentistas con las mejores valoraciones en Google (≥ 4.5 ⭐)
+            </p>
+          </div>
+          <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            {bestRated.map(d => (
+              <DentistCard
+                title={d.title}
+                category={d.category}
+                phone={d.phone}
+                address={d.address}
+                rating={d.rating}
+                reviews={d.reviews}
+                description={d.description}
+                services={d.services}
+                slug={d.slug}
+                maps_url={d.maps_url}
+                photo_url={d.photo_url}
+              />
+            ))}
+          </div>
+        </Col>
+      </Row>
+    </Section>
+  )}
+
+  <!-- ESPECIALIDADES -->
+  {allServices.length > 0 && (
+    <Section classes="bg-neutral-50 dark:bg-neutral-900">
+      <Row>
+        <Col span="12">
+          <div class="mb-10 text-center">
+            <h2 class="mb-2 text-3xl font-bold text-neutral-900 dark:text-white">Especialidades</h2>
+            <p class="text-neutral-500 dark:text-neutral-400">
+              Encuentra dentistas por especialidad
+            </p>
+          </div>
+          <div class="flex flex-wrap justify-center gap-3">
+            {allServices.map(s => (
+              <span class="inline-flex items-center gap-2 rounded-full border border-cyan-200 bg-cyan-50 px-5 py-2.5 text-sm font-medium text-cyan-700 transition-all hover:border-cyan-300 hover:bg-cyan-100 dark:border-cyan-800 dark:bg-cyan-900/30 dark:text-cyan-300 dark:hover:bg-cyan-900/50">
+                🦷 {s}
+              </span>
+            ))}
+          </div>
+        </Col>
+      </Row>
+    </Section>
+  )}
+
+  <!-- CTA -->
+  <Section mode="dark" classes="!bg-gradient-to-br !from-slate-900 !via-slate-800 !to-slate-900">
+    <div class="mx-auto max-w-3xl px-4 text-center">
+        <div class="mb-4 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/8 px-4 py-1.5 text-xs font-medium text-white/75 backdrop-blur-md">
+          📋 Para profesionales
+        </div>
+        <h2 class="mb-4 text-3xl font-bold text-white">¿Eres dentista en Santa Coloma?</h2>
+        <p class="mx-auto mb-8 max-w-xl text-white/60">
+          ¿Quieres aparecer en nuestro directorio? Contacta con nosotros para añadir tu clínica dental 
+          y llegar a más pacientes en Santa Coloma de Gramenet.
+        </p>
+        <a
+          href="mailto:info@dentistas-santa-coloma.es"
+          class="inline-flex items-center gap-2 rounded-full bg-white px-8 py-3.5 text-sm font-bold text-slate-900 no-underline shadow-lg transition-all duration-300 hover:-translate-y-0.5 hover:shadow-xl"
+        >
+          Contactar ahora
+          <span class="text-lg">→</span>
+        </a>
+      </div>
+    </div>
+  </Section>
 </Layout>

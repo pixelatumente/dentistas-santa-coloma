@@ -21,13 +21,13 @@ export interface Config {
 }
 
 export const configData: Config = {
-	siteTitle: 'Foxi. Tailwind CSS Astro Starter Kit by Oxygenna',
+	siteTitle: 'Dentistas Santa Coloma',
 	siteDescription:
-		'Foxi is a design and development agency that specializes in creating beautiful and functional websites.',
+		'Directorio de dentistas y clínicas dentales en Santa Coloma de Gramenet. Encuentra el mejor dentista cerca de ti.',
 	ogImage: '/og.jpg',
 	logo: {
 		src: '/logo.svg',
-		alt: 'Foxi. logo'
+		alt: 'Dentistas Santa Coloma'
 	},
 	canonical: true,
 	noindex: false,

@@ -1,0 +1,37 @@
+---
+import Layout from '../layouts/Layout.astro'
+
+const SEO = {
+  title: 'Aviso Legal — Dentistas Santa Coloma',
+  description: 'Aviso legal del directorio de dentistas en Santa Coloma de Gramenet, Barcelona.'
+}
+---
+
+<Layout title={SEO.title} description={SEO.description}>
+  <section class="bg-neutral-50 py-16 dark:bg-neutral-900">
+    <div class="mx-auto max-w-3xl px-6">
+      <h1 class="mb-8 text-3xl font-bold text-neutral-900 dark:text-white">Aviso Legal</h1>
+
+      <h2 class="mb-2 mt-7 text-lg font-semibold text-neutral-900 dark:text-white">1. Titular del sitio web</h2>
+      <p class="mb-4 text-sm leading-relaxed text-neutral-600 dark:text-neutral-400">
+        El titular de este sitio web es [Nombre del titular], con domicilio en Santa Coloma de Gramenet, Barcelona.<br/>
+        Correo electrónico: [email de contacto]
+      </p>
+
+      <h2 class="mb-2 mt-7 text-lg font-semibold text-neutral-900 dark:text-white">2. Propiedad intelectual</h2>
+      <p class="mb-4 text-sm leading-relaxed text-neutral-600 dark:text-neutral-400">
+        Todos los contenidos del sitio web (textos, imágenes, diseño) son propiedad del titular o se utilizan bajo licencia. Queda prohibida la reproducción total o parcial sin autorización.
+      </p>
+
+      <h2 class="mb-2 mt-7 text-lg font-semibold text-neutral-900 dark:text-white">3. Responsabilidad</h2>
+      <p class="mb-4 text-sm leading-relaxed text-neutral-600 dark:text-neutral-400">
+        Este sitio web actúa como directorio informativo. Los datos de los profesionales se obtienen de fuentes públicas como Google Maps. No nos hacemos responsables de la exactitud u obsolescencia de los datos proporcionados por terceros. Se recomienda contactar directamente con cada profesional para verificar la información.
+      </p>
+
+      <h2 class="mb-2 mt-7 text-lg font-semibold text-neutral-900 dark:text-white">4. Enlaces externos</h2>
+      <p class="mb-4 text-sm leading-relaxed text-neutral-600 dark:text-neutral-400">
+        Este sitio contiene enlaces a sitios externos como Google Maps y WhatsApp. No nos responsabilizamos del contenido ni de las políticas de privacidad de dichos sitios.
+      </p>
+    </div>
+  </section>
+</Layout>

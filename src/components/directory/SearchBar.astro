@@ -1,0 +1,209 @@
+---
+export interface Props {
+  placeholder?: string;
+}
+const { placeholder = "Busca un dentista o clínica..." } = Astro.props;
+---
+
+<div class="relative mx-auto max-w-xl" id="searchWrapper">
+  <div class="flex items-center rounded-full border border-white/20 bg-white/10 px-4 backdrop-blur-xl transition-all duration-300 focus-within:border-white/40 focus-within:bg-white/15 focus-within:shadow-[0_0_0_4px_rgba(6,182,212,0.15)]">
+    <svg class="size-[18px shrink-0 text-white/50" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+    </svg>
+    <input
+      type="text"
+      class="min-w-0 flex-1 bg-transparent px-3 py-3.5 text-base text-white outline-none placeholder:text-white/45"
+      id="searchInput"
+      placeholder={placeholder}
+      autocomplete="off"
+      autocorrect="off"
+      spellcheck="false"
+      aria-label="Buscar dentistas"
+    />
+    <button class="hidden size-8 shrink-0 items-center justify-center rounded-full text-white/40 transition-all hover:bg-white/10 hover:text-white" id="searchClear" aria-label="Limpiar búsqueda">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+        <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+      </svg>
+    </button>
+  </div>
+  <div class="sr-results" id="searchResults"></div>
+</div>
+
+<script>
+(function() {
+  const input = document.getElementById('searchInput');
+  const results = document.getElementById('searchResults');
+  const clearBtn = document.getElementById('searchClear');
+  const wrapper = document.getElementById('searchWrapper');
+  let data = [];
+  let selectedIndex = -1;
+  let fetched = false;
+
+  function fetchData() {
+    if (fetched) return;
+    fetched = true;
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', '/search-data.json', true);
+    xhr.onload = function() {
+      try { data = JSON.parse(xhr.responseText); } catch(e) { data = []; }
+    };
+    xhr.send();
+  }
+
+  function score(dent, queryLower) {
+    var title = dent.t.toLowerCase();
+    var cat = dent.c ? dent.c.toLowerCase() : '';
+    var desc = (dent.d || '').toLowerCase();
+    var words = queryLower.split(/\s+/).filter(Boolean);
+    if (words.length === 0) return -1;
+    var allMatch = words.every(function(w) {
+      return title.indexOf(w) !== -1 || cat.indexOf(w) !== -1 || desc.indexOf(w) !== -1;
+    });
+    if (!allMatch) return -1;
+    var s = 0;
+    var fullQuery = queryLower.trim();
+    if (title === fullQuery) s += 100;
+    else if (title.indexOf(fullQuery) === 0) s += 80;
+    else if (title.indexOf(fullQuery) !== -1) s += 60;
+    else if (cat.indexOf(fullQuery) !== -1) s += 40;
+    else if (desc.indexOf(fullQuery) !== -1) s += 20;
+    words.forEach(function(w) {
+      if (title.indexOf(w) === 0) s += 10;
+      else if (title.indexOf(' ' + w) !== -1) s += 5;
+    });
+    return s;
+  }
+
+  function escapeHtml(t) {
+    var d = document.createElement('div');
+    d.textContent = t;
+    return d.innerHTML;
+  }
+
+  function buscar(query) {
+    var q = query.trim().toLowerCase();
+    if (q.length < 1) {
+      results.classList.remove('active');
+      results.innerHTML = '';
+      selectedIndex = -1;
+      return;
+    }
+    var scored = [];
+    for (var i = 0; i < data.length; i++) {
+      var s = score(data[i], q);
+      if (s > 0) scored.push({ dent: data[i], score: s });
+    }
+    scored.sort(function(a, b) {
+      if (a.score !== b.score) return b.score - a.score;
+      return (b.dent.r || 0) - (a.dent.r || 0);
+    });
+    var top = scored.slice(0, 8);
+    selectedIndex = -1;
+    if (top.length === 0) {
+      results.classList.add('active');
+      results.innerHTML = '<div class="px-4 py-6 text-center text-sm text-white/50">No encontramos resultados para "<strong>' + escapeHtml(query.trim()) + '</strong>"</div>';
+      return;
+    }
+    var html = '';
+    for (var j = 0; j < top.length; j++) {
+      var d = top[j].dent;
+      html += '<a href="' + d.s + '" class="sr-item block px-5 py-3 text-sm font-medium text-white/85 no-underline transition-all duration-100 last:border-b-0 hover:bg-white/10" data-index="' + j + '">';
+      html += '  <span class="sr-title">' + escapeHtml(d.t) + '</span>';
+      html += '</a>';
+    }
+    results.innerHTML = html;
+    results.classList.add('active');
+  }
+
+  function navigate(dir) {
+    var items = results.querySelectorAll('.sr-item');
+    if (items.length === 0) return;
+    if (dir === 'down') {
+      selectedIndex = Math.min(selectedIndex + 1, items.length - 1);
+    } else {
+      selectedIndex = Math.max(selectedIndex - 1, 0);
+    }
+    items.forEach(function(el, i) {
+      el.classList.toggle('focused', i === selectedIndex);
+    });
+    if (selectedIndex >= 0) {
+      items[selectedIndex].scrollIntoView({ block: 'nearest' });
+    }
+  }
+
+  input.addEventListener('focus', fetchData);
+  input.addEventListener('click', fetchData);
+
+  var debounceTimer;
+  input.addEventListener('input', function() {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(function() { buscar(input.value); }, 100);
+    clearBtn.classList.toggle('visible', input.value.length > 0);
+  });
+
+  input.addEventListener('keydown', function(e) {
+    if (e.key === 'ArrowDown') { e.preventDefault(); navigate('down'); }
+    else if (e.key === 'ArrowUp') { e.preventDefault(); navigate('up'); }
+    else if (e.key === 'Enter') {
+      var items = results.querySelectorAll('.sr-item');
+      if (selectedIndex >= 0 && selectedIndex < items.length) {
+        window.location.href = items[selectedIndex].getAttribute('href');
+      } else if (items.length > 0) {
+        window.location.href = items[0].getAttribute('href');
+      }
+    }
+    else if (e.key === 'Escape') {
+      results.classList.remove('active');
+      input.blur();
+    }
+  });
+
+  clearBtn.addEventListener('click', function() {
+    input.value = '';
+    results.classList.remove('active');
+    results.innerHTML = '';
+    selectedIndex = -1;
+    clearBtn.classList.remove('visible');
+    input.focus();
+  });
+
+  document.addEventListener('click', function(e) {
+    if (!wrapper.contains(e.target)) {
+      results.classList.remove('active');
+    }
+  });
+
+  if ('requestIdleCallback' in window) {
+    requestIdleCallback(fetchData);
+  } else {
+    setTimeout(fetchData, 1000);
+  }
+  window.addEventListener('scroll', fetchData, { once: true });
+})();
+</script>
+
+<style>
+  .sr-results {
+    display: none;
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    right: 0;
+    background: rgba(15,23,42,0.96);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 0.75rem;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.3);
+    max-height: 420px;
+    overflow-y: auto;
+    z-index: 300;
+  }
+  .sr-results.active { display: block; animation: srFadeIn 0.15s ease; }
+  @keyframes srFadeIn { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: translateY(0); } }
+  .sr-item { border-bottom: 1px solid rgba(255,255,255,0.06); }
+  .sr-item:first-child { border-radius: 0.75rem 0.75rem 0 0; }
+  .sr-item:last-child { border-radius: 0 0 0.75rem 0.75rem; }
+  .sr-item:hover, .sr-item.focused { background: rgba(255,255,255,0.08); }
+  #searchClear.visible { display: flex; }
+</style>

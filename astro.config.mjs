@@ -1,10 +1,10 @@
 import { defineConfig } from "astro/config";
 import icon from "astro-icon";
-
 import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://foxi.netlify.app",
+  site: "https://dentistas-santa-coloma.es",
+  output: "static",
   integrations: [icon(), sitemap()],
 });
